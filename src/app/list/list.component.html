@@ -2,6 +2,6 @@
     <div class=name *ngIf="list.name">{{list.name}}</div>
 
     <div class=list *ngIf="list">
-        <app-song [song]=song [index]=i [detailed]=detailed *ngFor="let song of list.list; index as i"></app-song>
+        <app-song [song]=song [index]=i *ngFor="let song of list.list; index as i"></app-song>
     </div>
 </div>

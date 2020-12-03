@@ -10,6 +10,11 @@
     height: 50px;
 }
 
+#site-description {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
 #site-header {
     transform: scale(4, 1) translate(56px, 0px);
     display: inline-block;
@@ -22,3 +27,24 @@
     font-size: 2rem;
 }
 
+a {
+    text-decoration: none;
+    color: dodgerblue;
+    border: 1.5px solid dodgerblue;
+    border-radius: 20px;
+    padding: 0 5px;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: dodgerblue;
+    color: ivory;
+    border-color: dodgerblue;
+}
+
+a:active {
+    text-decoration: none;
+    background-color: orangered;
+    color: ivory;
+    border-color: orangered;
+}

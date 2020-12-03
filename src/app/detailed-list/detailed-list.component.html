@@ -1,3 +1,9 @@
+<div id="nav">
+    <div id="home-button" (click)="onHome()">Home</div>
+    <div id="previous-button" (click)="onPrevious(name)">←</div>
+    <div id="next-button" (click)="onNext(name)">→</div>
+</div>
+
 <div class=detailed-list-container>
     <div class=name *ngIf="name">{{name}}</div>
 

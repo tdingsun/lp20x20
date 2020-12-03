@@ -75,3 +75,44 @@
     height: 400px;
     padding: 5px 0 5px 10px;
 }
+
+#nav {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+}
+
+#nav * {
+    font-size: 1.2rem;
+    margin-left: 10px;
+    border-radius: 20px;
+
+}
+
+#nav *:hover {
+    cursor: pointer;
+    background-color: dodgerblue;
+    color: ivory;
+}
+
+#nav *:active {
+    cursor: pointer;
+    background-color: orangered;
+    color: ivory;
+}
+
+#home-button {
+    padding: 5px 10px 0 10px;
+}
+
+#previous-button, #next-button {
+    width: 30px;
+    height: 30px;
+    border: 1.5px solid;
+    border-color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+}

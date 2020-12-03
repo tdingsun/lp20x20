@@ -8,8 +8,8 @@
 
 }
 .list-container:hover {
-    color: black;
-    border-color: black;
+    color: darkgoldenrod;
+    border-color: darkgoldenrod;
     cursor: pointer;
 }
 
@@ -31,10 +31,10 @@
 
 .name {
     width: calc(100% - 30px);
-    font-size: 2rem;
+    font-size: 3rem;
     border-bottom: 1.5px solid;
     border-color: inherit;
-    padding: 10px 10px 10px 0px;
+    padding: 10px 10px 0px 0px;
     letter-spacing: -1px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }

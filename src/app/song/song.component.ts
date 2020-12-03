@@ -9,7 +9,6 @@ import { Song } from '../list';
 export class SongComponent implements OnInit {
   @Input() song:Song;
   @Input() index:number;
-  @Input() detailed:boolean;
   
   constructor() { }
 

@@ -10,7 +10,6 @@ import { Router, ActivatedRoute } from '@angular/router';
 })
 export class ListComponent implements OnInit {
   @Input() list: List;
-  detailed:boolean = false;
   constructor(private router:Router, private route:ActivatedRoute) { }
 
   ngOnInit(): void {
