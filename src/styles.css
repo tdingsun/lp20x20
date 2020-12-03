@@ -84,4 +84,8 @@ app-list:last-of-type {
         width: 200vw;
         top: 20px;
     }
+
+    body {
+        padding: 5px;
+    }
 }

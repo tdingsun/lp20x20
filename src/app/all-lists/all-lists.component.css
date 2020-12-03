@@ -50,5 +50,8 @@ app-list:first-of-type {
     #lists-container {
         padding: 5px;
     }
+    app-list:first-of-type {
+        margin-left: 0;
+    }
     
 }

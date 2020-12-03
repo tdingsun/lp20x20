@@ -50,4 +50,8 @@ app-song {
     #header {
         padding: 5px;
     }
+
+    .name {
+        padding: 0;
+    }
 }

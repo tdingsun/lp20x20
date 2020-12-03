@@ -14,7 +14,6 @@
 .number {
     width: 20px;
     height: 20px;
-    /* border: 2px solid; */
     border-color: inherit;
     border-radius: 20px;
     display: flex;
@@ -27,9 +26,12 @@
 
 .song-name {
     font-size: 1.2rem;
+    letter-spacing: -0.5px;
+
 }
 
 .song-artist {
     font-style: italic;
-    vertical-align: top;
+    letter-spacing: -0.5px;
+
 }
