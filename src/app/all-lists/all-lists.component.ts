@@ -21,4 +21,10 @@ export class AllListsComponent implements OnInit {
     })
   }
 
+  onScroll($event) {
+    let scrollAmount = document.querySelector('#lists-container').scrollLeft
+    let el = document.getElementById('watermark');
+    el.style.transform = `rotate3d(1, 1, 1, ${scrollAmount*0.075}deg)`;
+  }
+
 }

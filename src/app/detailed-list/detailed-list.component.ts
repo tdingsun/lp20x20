@@ -47,10 +47,6 @@ export class DetailedListComponent implements OnInit {
     });
   }
 
-  onHome(): void {
-    this.router.navigate([`/index`]);
-  }
-
   onPrevious(name): void {
     let i = this.names.indexOf(name.toLowerCase());
     let previousName = "index";

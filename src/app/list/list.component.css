@@ -8,14 +8,14 @@
 
 }
 .list-container:hover {
-    color: darkgoldenrod;
-    border-color: darkgoldenrod;
+    color: orangered;
+    border-color: orangered;
     cursor: pointer;
 }
 
 .list-container:active {
-    color: orangered;
-    border-color: orangered;
+    color: magenta;
+    border-color: magenta;
     cursor: pointer;
 }
 

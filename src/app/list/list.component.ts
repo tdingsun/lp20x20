@@ -16,7 +16,8 @@ export class ListComponent implements OnInit {
   }
 
   onClick(name): void {
+    let el = document.getElementById('watermark');
+    el.style.filter = `blur(50px)`;
     this.router.navigate([`/${name}`]);
   }
-
 }

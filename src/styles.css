@@ -27,3 +27,27 @@ body, html {
     scrollbar-width: none;  /* Firefox */
 }
 
+app-root {
+    z-index: 1;
+}
+
+#watermark-container {
+    position: fixed;
+}
+
+#watermark {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    transition: filter 1s;
+
+}
+
+#watermark img {
+    width: 200%;
+    filter: blur(10px);
+    transform: rotate3d(1, 1, 1, 0deg);
+    opacity: 0.3;
+    z-index: 0;
+}
