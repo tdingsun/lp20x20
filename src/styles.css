@@ -5,23 +5,27 @@ body, html {
     font-family: sans-serif;
     background-color: ivory;
     color:dodgerblue;
-    scroll-behavior: smooth;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    transition: color 0.25s;
-
+    scroll-behavior: smooth;
 }
 
-.list app-song:last-child .song-container {
+body {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+app-list:first-of-type .list {
+    border-left: 2px solid!important;
+}
+
+app-list:last-of-type {
+    padding-right: 20px;
+}
+
+.list app-song:last-child .song-container, .detailed-list-container .list .song-container:last-child  {
     border-bottom: none;
-}
-
-
-
-/* Hide scrollbar for Chrome, Safari and Opera */
-.list::-webkit-scrollbar {
-    display: none;
 }
 
 .list {
@@ -29,27 +33,55 @@ body, html {
     scrollbar-width: none;  /* Firefox */
 }
 
-app-root {
-    z-index: 1;
-}
+/* width */
+.list::-webkit-scrollbar {
+    width: 2px;
+    margin-left: 10px;
+  }
+  
+  /* Track */
+.list::-webkit-scrollbar-track {
+    background: dodgerblue;
+
+  }
+  
+  /* Handle */
+.list::-webkit-scrollbar-thumb {
+    background: orangered;
+
+  }
 
 #watermark-container {
     position: fixed;
 }
 
-#watermark {
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    z-index: 0;
 
-}
+
 
 #watermark-img {
-    width: 200%;
-    margin: auto;
-    filter: blur(15px);
-    opacity: 0.3;
-    z-index: 0;
-    transition: filter 1s;
+    position: fixed;
+    bottom: -50vw;
+    width: 100vw;
+    filter: blur(10px);
+    opacity: 0.25;
+    z-index: 1;
+    transition: filter 0.25s;
+}
+
+@media only screen and (max-width: 500px){
+    #watermark-container {
+        position: fixed;
+    }
+
+    #watermark {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        z-index: 0;
+    }
+    
+    #watermark-img {
+        width: 200vw;
+        top: 20px;
+    }
 }

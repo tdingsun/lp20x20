@@ -15,7 +15,7 @@ export class AllListsComponent implements OnInit {
 
   ngOnInit() {
     let el = document.getElementById('watermark-img');
-    el.style.filter = `blur(10px)`;
+    el.style.filter = `blur(5px)`;
     this.listService.getLists().subscribe({
       next: lists => {
         this.lists = lists;
@@ -24,9 +24,16 @@ export class AllListsComponent implements OnInit {
   }
 
   onScroll($event) {
+    let width = window.innerWidth;
     let scrollAmount = document.querySelector('#lists-container').scrollLeft
-    let el = document.getElementById('watermark');
-    el.style.transform = `rotate3d(1, 1, 1, ${scrollAmount*0.075}deg)`;
+
+    if(width < 500){
+      let el = document.getElementById('watermark');
+      el.style.transform = `rotate3D(1, 1, 1, ${scrollAmount*0.075}deg)`;
+    } else {
+      let el = document.getElementById('watermark-img');
+      el.style.transform = `rotate(${scrollAmount*0.075}deg)`;
+    }
   }
 
   onClick() {

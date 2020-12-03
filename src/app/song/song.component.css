@@ -1,7 +1,7 @@
 .song-container {
-    border-bottom: 1.5px solid;
+    border-bottom: 2px solid;
     border-color: inherit;
-    padding: 10px 0px 5px 0px;
+    padding: 10px 0px 5px 10px;
 
 }
 
@@ -14,7 +14,7 @@
 .number {
     width: 20px;
     height: 20px;
-    border: 1.5px solid;
+    /* border: 2px solid; */
     border-color: inherit;
     border-radius: 20px;
     display: flex;
@@ -26,7 +26,7 @@
 }
 
 .song-name {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .song-artist {

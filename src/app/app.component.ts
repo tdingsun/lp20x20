@@ -12,8 +12,6 @@ export class AppComponent {
   }
 
   onClick() {
-    let el = document.getElementById('watermark-img');
-    el.style.filter = `blur(10px)`;
     this.router.navigate([`/index`]);
   }
 }

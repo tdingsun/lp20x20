@@ -35,8 +35,10 @@ export class DetailedListComponent implements OnInit {
     "wen"
   ]
   constructor(private listService: ListService, private router:Router, private route:ActivatedRoute) { }
-
   ngOnInit(): void {
+    let el = document.getElementById('watermark-img');
+    el.style.filter = `blur(100px)`;
+    
     this.route.params.subscribe(val => {
       this.listService.getList(this.route.snapshot.params['name']).subscribe({
         next: list => {
@@ -68,5 +70,5 @@ export class DetailedListComponent implements OnInit {
     }
     this.router.navigate([`/${nextName}`]);
   }
-  
+
 }

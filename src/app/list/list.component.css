@@ -4,9 +4,6 @@
     height: 100%;
     letter-spacing: -0.5px;
     border-color: dodgerblue;
-    transition: 0.25s;
-
-
 }
 .list-container:hover {
     color: orangered;
@@ -24,32 +21,33 @@
 .list {
     width: 300px;
     overflow-y: scroll;
-    border-bottom: 1.5px solid;
+    border-bottom: 2px solid;
     border-color: inherit;
-    padding-right: 20px;
-    margin-bottom: 10px;
-
-
 }
 
 .name {
-    width: calc(100% - 20px);
     font-size: 3rem;
-    border-bottom: 1.5px solid;
+    border-bottom: 2px solid;
     border-color: inherit;
-    padding: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 20px;
     letter-spacing: -1px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .roman {
-   float: right; 
+   /* float: right;  */
    font-size: 1.2rem;
-   margin-left: -10px;
    margin-top: 25px;
+   vertical-align: top;
 }
 
 
 app-song {
     border-color: inherit;
+}
+
+@media only screen and (max-width: 500px){
+    #header {
+        padding: 5px;
+    }
 }

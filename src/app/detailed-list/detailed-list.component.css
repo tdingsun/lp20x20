@@ -1,14 +1,14 @@
 .detailed-list-container {
-    padding: 20px;
     overflow: hidden;
     height: 100%;
+    width: calc(100vw - 40px);
 }
 
 .name {
     font-size: 4rem;
-    border-bottom: 1.5px solid;
+    border-bottom: 2px solid;
     border-color: inherit;
-    padding: 10px 10px 10px 0px;
+    padding: 10px 10px 0px 0px;
     letter-spacing: -1px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: -2px;
@@ -17,13 +17,15 @@
 
 .list {
     overflow-y: scroll;
+    bottom: 20px;
     height: calc(100vh - 230px);
-    border-bottom: 1.5px solid;
+    width: 100%;
+    border-bottom: 2px solid;
     border-color: inherit;
 }
 
 .song-container {
-    border-bottom: 1.5px solid;
+    border-bottom: 2px solid;
     border-color: inherit;
     padding: 10px 0px 10px 0px;
     display: flex;
@@ -43,7 +45,7 @@
     width: 30px;
     height: 30px;
     font-size: 1.5rem;
-    border: 1.5px solid;
+    border: 2px solid;
     border-color: inherit;
     border-radius: 20px;
     display: flex;
@@ -51,7 +53,7 @@
     align-items: center;
     flex-shrink: 0;
     margin-right: 10px;
-    margin-top: 1px;
+    margin-top: 2px;
 }
 
 .song-artist {
@@ -91,13 +93,11 @@
     border-radius: 20px;
     width: 30px;
     height: 30px;
-    border: 1.5px solid;
+    border: 2px solid;
     border-color: inherit;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 0;
-
 }
 
 #nav *:hover {
