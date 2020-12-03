@@ -9,6 +9,8 @@ body, html {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
+    transition: color 0.25s;
+
 }
 
 .list app-song:last-child .song-container {
@@ -40,14 +42,14 @@ app-root {
     width: 100vw;
     height: 100vh;
     z-index: 0;
-    transition: filter 1s;
 
 }
 
-#watermark img {
+#watermark-img {
     width: 200%;
-    filter: blur(10px);
-    transform: rotate3d(1, 1, 1, 0deg);
+    margin: auto;
+    filter: blur(15px);
     opacity: 0.3;
     z-index: 0;
+    transition: filter 1s;
 }
