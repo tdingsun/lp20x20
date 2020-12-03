@@ -1,0 +1,35 @@
+.song-container {
+    border-bottom: 1.5px solid;
+    border-color: inherit;
+    padding: 10px 0px 5px 0px;
+
+}
+
+.song-name-container {
+    display: flex;
+    padding-bottom: 5px;
+
+}
+
+.number {
+    width: 20px;
+    height: 20px;
+    border: 1.5px solid;
+    border-color: inherit;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-right: 10px;
+    margin-top: 1px;
+}
+
+.song-name {
+    font-size: 1.5rem;
+}
+
+.song-artist {
+    font-size: 1.5rem;
+    font-style: italic;
+}

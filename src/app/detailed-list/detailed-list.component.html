@@ -1,0 +1,14 @@
+<div class=detailed-list-container>
+    <div class=name *ngIf="name">{{name}}</div>
+
+    <div class=list *ngIf="list">
+        <div class="song-container" *ngFor="let song of list.list; index as i">
+            <div class="number">{{i + 1}}</div>
+            <div class="song-info">
+                <iframe class="song-link" [src]="song.link | safe" controls=0 modestbranding rel=0 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                {{song.song}} <span class="song-artist">by {{song.artist}}</span>
+                <div class="song-description">{{song.description}}</div>
+            </div>
+        </div>
+    </div>
+</div>

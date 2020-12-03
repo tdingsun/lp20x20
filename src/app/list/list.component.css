@@ -1,0 +1,44 @@
+.list-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    letter-spacing: -0.5px;
+    border-color: dodgerblue;
+
+
+}
+.list-container:hover {
+    color: black;
+    border-color: black;
+    cursor: pointer;
+}
+
+.list-container:active {
+    color: orangered;
+    border-color: orangered;
+    cursor: pointer;
+}
+
+
+.list {
+    width: 300px;
+    overflow-y: scroll;
+    border-bottom: 1.5px solid;
+    border-color: inherit;
+    padding-right: 20px;
+
+}
+
+.name {
+    width: calc(100% - 30px);
+    font-size: 2rem;
+    border-bottom: 1.5px solid;
+    border-color: inherit;
+    padding: 10px 10px 10px 0px;
+    letter-spacing: -1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+app-song {
+    border-color: inherit;
+}

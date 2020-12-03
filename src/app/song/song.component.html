@@ -1,0 +1,8 @@
+<div class="song-container" *ngIf="song">
+    <div class="song-name-container">
+        <div class="number">{{index + 1}}</div>
+        <div class="song-name">{{song.song}} — <span class="song-artist">{{song.artist}}</span></div>
+    </div>
+    <div *ngIf="detailed" class="song-description">{{song.description}}</div>
+    <iframe *ngIf="detailed" class="song-link" [src]="song.link | safe" controls=0 modestbranding rel=0 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
