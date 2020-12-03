@@ -1,5 +1,6 @@
 export interface List {
     name: string;
+    roman: string;
     list: Song[];
 }
 

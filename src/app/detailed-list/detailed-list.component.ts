@@ -68,4 +68,5 @@ export class DetailedListComponent implements OnInit {
     }
     this.router.navigate([`/${nextName}`]);
   }
+  
 }
