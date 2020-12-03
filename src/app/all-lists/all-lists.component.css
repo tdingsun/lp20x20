@@ -6,3 +6,35 @@
     transition: 0.25s;
     height: calc(100vh - 130px);
 }
+
+#infobox {
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    top: 20px;
+    right: 20px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+#infobox img {
+    width: 100%;
+
+}
+
+#infobox:hover {
+    color: orangered;
+
+}
+
+#info {
+    position: fixed;
+    width: 300px;
+    height: 150px;
+    top: calc(50vh - 200px);
+    right: calc(50vw - 150px);
+}
+
+#info img {
+    width: 100%;
+}

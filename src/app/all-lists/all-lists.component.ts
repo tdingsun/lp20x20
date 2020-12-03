@@ -9,11 +9,13 @@ import { ListService } from '../list.service';
 })
 export class AllListsComponent implements OnInit {
   lists: List[] = [];
-
+  showInfo: boolean = true;
   constructor(private listService: ListService) {
   }
 
   ngOnInit() {
+    let el = document.getElementById('watermark');
+    el.style.filter = `blur(10px)`;
     this.listService.getLists().subscribe({
       next: lists => {
         this.lists = lists;
@@ -25,6 +27,13 @@ export class AllListsComponent implements OnInit {
     let scrollAmount = document.querySelector('#lists-container').scrollLeft
     let el = document.getElementById('watermark');
     el.style.transform = `rotate3d(1, 1, 1, ${scrollAmount*0.075}deg)`;
+  }
+
+  onClick() {
+    document.querySelector('#info').toggleAttribute("hidden");
+    setTimeout(function(){
+      document.querySelector('#info').toggleAttribute("hidden");
+    }, 2000);
   }
 
 }

@@ -11,6 +11,8 @@
     padding: 10px 10px 10px 0px;
     letter-spacing: -1px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: -2px;
+
 }
 
 .list {
@@ -84,29 +86,9 @@
 }
 
 #nav * {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-left: 10px;
     border-radius: 20px;
-
-}
-
-#nav *:hover {
-    cursor: pointer;
-    background-color: dodgerblue;
-    color: ivory;
-}
-
-#nav *:active {
-    cursor: pointer;
-    background-color: orangered;
-    color: ivory;
-}
-
-#home-button {
-    padding: 5px 10px 0 10px;
-}
-
-#previous-button, #next-button {
     width: 30px;
     height: 30px;
     border: 1.5px solid;
@@ -115,4 +97,19 @@
     justify-content: center;
     align-items: center;
     padding-left: 0;
+
+}
+
+#nav *:hover {
+    cursor: pointer;
+    background-color: dodgerblue;
+    color: ivory;
+    border-color: dodgerblue;
+}
+
+#nav *:active {
+    cursor: pointer;
+    background-color: orangered;
+    border-color: orangered;
+    color: ivory;
 }

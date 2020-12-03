@@ -4,6 +4,7 @@
     height: 100%;
     letter-spacing: -0.5px;
     border-color: dodgerblue;
+    transition: 0.25s;
 
 
 }
@@ -14,8 +15,8 @@
 }
 
 .list-container:active {
-    color: magenta;
-    border-color: magenta;
+    color: dodgerblue;
+    border-color: dodgerblue;
     cursor: pointer;
 }
 

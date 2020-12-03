@@ -10,20 +10,27 @@
     padding: 20px;
     letter-spacing: -0.5px;
     height: 50px;
+    border-color: dodgerblue;
+    transition: 0.25s;
+    letter-spacing: -1px;
+    display: inline-block;
+
 }
 
 #header:hover {
     color: orangered;
+    border-color: orangered;
     cursor: pointer;
 }
 
 #site-description {
     font-size: 1.5rem;
     text-transform: uppercase;
+
 }
 
 #site-header {
-    transform: scale(4, 1) translate(56px, 0px);
+    font-size: 3rem;
     display: inline-block;
 }
 
@@ -36,20 +43,21 @@
 
 a {
     text-decoration: none;
-    color: dodgerblue;
-    border: 1.5px solid dodgerblue;
+    color: inherit;
+    border: 1.5px solid;
+    border-color: inherit;
     border-radius: 20px;
     padding: 0 5px;
 }
 
-a:hover {
+a:active {
     text-decoration: none;
-    background-color: dodgerblue;
+    background-color: dodgerblue!important;
     color: ivory;
-    border-color: dodgerblue;
+    border-color: dodgerblue!important;
 }
 
-a:active {
+a:hover {
     text-decoration: none;
     background-color: orangered;
     color: ivory;
@@ -57,3 +65,7 @@ a:active {
 }
 
 
+#sword {
+    font-size: 3.8rem;
+    line-height: 0;
+}
