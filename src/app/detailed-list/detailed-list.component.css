@@ -131,10 +131,16 @@
 
     .list {
         border: none;
+        height: 100vh;
+        padding-bottom: 250px;
     }
 
     .list::-webkit-scrollbar {
         width: 0;
+    }
+    
+    .name {
+        font-size: 3rem;
     }
 
     #nav {

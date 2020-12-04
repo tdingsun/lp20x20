@@ -54,4 +54,8 @@ app-song {
     .name {
         padding: 0;
     }
+
+    .list {
+        border-right: 2px solid;
+    }
 }
