@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { List } from '../list';
 import { Router, ActivatedRoute } from '@angular/router';
 
@@ -8,8 +8,9 @@ import { Router, ActivatedRoute } from '@angular/router';
   templateUrl: './list.component.html',
   styleUrls: ['./list.component.css']
 })
-export class ListComponent implements OnInit {
+export class ListComponent {
   @Input() list: List;
+  hover: boolean = false;
   constructor(private router:Router, private route:ActivatedRoute) { }
 
   ngOnInit(): void {
@@ -18,4 +19,5 @@ export class ListComponent implements OnInit {
   onClick(name): void {
     this.router.navigate([`/${name}`]);
   }
+
 }

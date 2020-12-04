@@ -1,9 +1,9 @@
-<div class="list-container" (click)="onClick(list.name)">
+<div class="list-container" (click)="onClick(list.name)" (mouseover)="hover=true" (mouseout)="hover=false" [ngStyle]="{'background-color': hover==true ? list.color : 'transparent' }">
     <div class=name *ngIf="list.name">
         {{list.name}}<span class=roman>{{list.roman}}</span>
     </div>
 
-    <div class=list *ngIf="list">
+    <div class="list" [id]=list.name *ngIf="list">
         <app-song [song]=song [index]=i *ngFor="let song of list.list; index as i"></app-song>
     </div>
 </div>

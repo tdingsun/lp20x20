@@ -1,10 +1,12 @@
-<div id="nav">
-    <div id="previous-button" (click)="onPrevious(name)">←</div>
-    <div id="next-button" (click)="onNext(name)">→</div>
-</div>
+
+<div class=name-big *ngIf="name">{{name}}</div>
 
 <div class=detailed-list-container>
-    <div class=name *ngIf="name">{{name}}</div>
+    <div id="nav">
+        <div id="previous-button" (click)="onPrevious(name)">←</div>
+        <div id="next-button" (click)="onNext(name)">→</div>
+    </div>
+    
 
     <div class=list *ngIf="list">
         <div class="song-container" *ngFor="let song of list.list; index as i">
