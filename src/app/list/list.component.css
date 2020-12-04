@@ -10,10 +10,7 @@
 .list-container:hover {
     cursor: pointer;
     color: white;
-    /* border-top: 2px solid;
-    border-left: 2px solid;
-    border-right: 2px solid;
-     */
+    background-color: dodgerblue;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
