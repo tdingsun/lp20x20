@@ -2,8 +2,6 @@
     overflow: hidden;
     height: 100%;
     width: calc(100vw - 40px);
-    max-width: 1000px;
-    margin: auto;
 }
 
 .name {
@@ -52,6 +50,8 @@
     font-size: 2rem;
     padding-top: 20px;
     padding-bottom: 20px;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .song-name-container {
