@@ -49,7 +49,7 @@ app-list:first-of-type {
 @media only screen and (max-width: 580px){
     #lists-container {
         padding: 5px;
-        height: calc(100vh - 60px);
+        height: calc(100% - 55px);
     }
     app-list:first-of-type {
         margin-left: 0;
