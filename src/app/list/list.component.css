@@ -5,14 +5,13 @@
     letter-spacing: -0.5px;
     box-sizing: border-box;
     border-bottom: 1px solid;
-
-}
-.list-container:hover {
-    cursor: pointer;
-    color: white;
-    background-color: dodgerblue;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+    cursor: pointer;
+}
+.list-container:hover {
+    color: white;
+    background-color: dodgerblue;
 }
 
 .list {
