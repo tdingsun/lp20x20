@@ -2,6 +2,7 @@
     {
         "name": "Aayushi",
         "roman": "I",
+        "color": "darkolivegreen",
         "list": [
             {
                 "song": "Sex",
@@ -129,6 +130,7 @@
     {
         "name": "Adrian",
         "roman": "II",
+        "color": "orangered",
         "list": [
             {
                 "song": "Sex",
@@ -256,6 +258,7 @@
     {
         "name": "Aedan",
         "roman": "III",
+        "color": "orange",
         "list": [
             {
                 "song": "Sex",
@@ -383,6 +386,7 @@
     {
         "name": "Andreas",
         "roman": "IV",
+        "color": "skyblue",
         "list": [
             {
                 "song": "Sex",
@@ -510,6 +514,7 @@
     {
         "name": "Annabelle",
         "roman": "V",
+        "color": "darkorchid",
         "list": [
             {
                 "song": "Sex",
@@ -637,6 +642,7 @@
     {
         "name": "Elias",
         "roman": "VI",
+        "color": "darkorange",
         "list": [
             {
                 "song": "Sex",
@@ -764,6 +770,7 @@
     {
         "name": "Ellen",
         "roman": "VII",
+        "color": "limegreen",
         "list": [
             {
                 "song": "Sex",
@@ -891,6 +898,7 @@
     {
         "name": "Ja-Yoon",
         "roman": "VIII",
+        "color": "sandybrown",
         "list": [
             {
                 "song": "Sex",
@@ -1018,6 +1026,7 @@
     {
         "name": "Kay",
         "roman": "IX",
+        "color": "rosybrown",
         "list": [
             {
                 "song": "Sex",
@@ -1145,6 +1154,7 @@
     {
         "name": "Kevin",
         "roman": "X",
+        "color": "steelblue",
         "list": [
             {
                 "song": "Sex",
@@ -1272,6 +1282,7 @@
     {
         "name": "Libby",
         "roman": "XI",
+        "color": "forestgreen",
         "list": [
             {
                 "song": "Sex",
@@ -1399,6 +1410,7 @@
     {
         "name": "Mac",
         "roman": "XII",
+        "color": "crimson",
         "list": [
             {
                 "song": "Sex",
@@ -1526,6 +1538,7 @@
     {
         "name": "Maria",
         "roman": "XIII",
+        "color": "yellowgreen",
         "list": [
             {
                 "song": "Sex",
@@ -1653,6 +1666,7 @@
     {
         "name": "Raina",
         "roman": "XVI",
+        "color": "orchid",
         "list": [
             {
                 "song": "Sex",
@@ -1780,6 +1794,7 @@
     {
         "name": "Rohan",
         "roman": "XV",
+        "color": "firebrick",
         "list": [
             {
                 "song": "Sex",
@@ -1907,6 +1922,7 @@
     {
         "name": "Sara",
         "roman": "XVI",
+        "color": "royalblue",
         "list": [
             {
                 "song": "Sex",
@@ -2034,6 +2050,7 @@
     {
         "name": "Shingo",
         "roman": "XVII",
+        "color": "lightseagreen",
         "list": [
             {
                 "song": "Sex",
@@ -2161,6 +2178,7 @@
     {
         "name": "Theia",
         "roman": "XVIII",
+        "color": "darkgoldenrod",
         "list": [
             {
                 "song": "Sex",
@@ -2288,6 +2306,7 @@
     {
         "name": "Tiger",
         "roman": "XIX",
+        "color": "darkkhaki",
         "list": [
             {
                 "song": "Sex",
@@ -2415,6 +2434,7 @@
     {
         "name": "Wen",
         "roman": "XX",
+        "color": "cornflowerblue",
         "list": [
             {
                 "song": "Sex",
