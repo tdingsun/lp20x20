@@ -18,7 +18,7 @@ export class AllListsComponent implements OnInit {
     let el = document.getElementById('watermark-img');
     let width = window.innerWidth;
     el.style.filter = `blur(5px)`;
-    if(width < 500){
+    if(width < 580){
       el.style.visibility = 'visible';
     }
     this.listService.getLists().subscribe({
@@ -32,7 +32,7 @@ export class AllListsComponent implements OnInit {
     let width = window.innerWidth;
     let scrollAmount = document.querySelector('#lists-container').scrollLeft
 
-    if(width < 500){
+    if(width < 580){
       let el = document.getElementById('watermark');
       el.style.transform = `rotate3D(1, 1, 1, ${scrollAmount*0.075}deg)`;
     } else {

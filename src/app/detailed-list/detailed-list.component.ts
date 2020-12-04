@@ -39,7 +39,7 @@ export class DetailedListComponent implements OnInit {
   ngOnInit(): void {
     let el = document.getElementById('watermark-img');
     let width = window.innerWidth;
-    if(width > 500){
+    if(width > 580){
       el.style.filter = `blur(100px)`;
     } else {
       el.style.visibility = 'hidden';

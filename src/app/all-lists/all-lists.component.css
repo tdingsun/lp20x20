@@ -46,9 +46,10 @@ app-list:first-of-type {
     width: 100%;
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 580px){
     #lists-container {
         padding: 5px;
+        height: calc(100vh - 60px);
     }
     app-list:first-of-type {
         margin-left: 0;

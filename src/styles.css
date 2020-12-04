@@ -28,16 +28,8 @@ app-list:last-of-type {
     border-bottom: none;
 }
 
-.list {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-}
 
-/* width */
-.list::-webkit-scrollbar {
-    width: 0px;
-    margin-left: 10px;
-}
+
 
 #watermark-container {
     position: fixed;
@@ -45,15 +37,15 @@ app-list:last-of-type {
 
 #watermark-img {
     position: fixed;
-    bottom: -50vw;
+    top: 160px;
     width: 100vw;
-    filter: blur(5px);
-    opacity: 0.25;
+    left: -10px;
+    opacity: 0.3;
     z-index: 1;
     transition: filter 0.25s;
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 580px){
     #watermark-container {
         position: fixed;
     }

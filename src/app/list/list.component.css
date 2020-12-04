@@ -19,7 +19,14 @@
     overflow-y: scroll;
     border-color: inherit;
     border-right: 1px solid;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
+
+.list::-webkit-scrollbar {
+    width: 0px;
+}
+
 
 .name {
     font-size: 3rem;
@@ -44,7 +51,7 @@ app-song {
     border-color: inherit;
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 580px){
     #header {
         padding: 5px;
     }
