@@ -53,5 +53,9 @@ app-list:first-of-type {
     app-list:first-of-type {
         margin-left: 0;
     }
+    #infobox {
+        top: 5px;
+        right: 5px;
+    }
     
 }
