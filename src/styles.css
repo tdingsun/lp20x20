@@ -83,6 +83,7 @@ app-list:last-of-type {
     #watermark-img {
         width: 200vw;
         top: 20px;
+        transition: none;
     }
 
     body {

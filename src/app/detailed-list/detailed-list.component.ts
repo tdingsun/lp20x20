@@ -11,6 +11,7 @@ import { ListService } from '../list.service';
 export class DetailedListComponent implements OnInit {
   list: List = null;
   name: string = null;
+  smallScreen: boolean = false;
 
   names: string[] = [
     "aayushi",
@@ -37,8 +38,14 @@ export class DetailedListComponent implements OnInit {
   constructor(private listService: ListService, private router:Router, private route:ActivatedRoute) { }
   ngOnInit(): void {
     let el = document.getElementById('watermark-img');
-    el.style.filter = `blur(100px)`;
-    
+    let width = window.innerWidth;
+    if(width > 500){
+      el.style.filter = `blur(100px)`;
+    } else {
+      el.style.visibility = 'hidden';
+      this.smallScreen = true;
+    }
+
     this.route.params.subscribe(val => {
       this.listService.getList(this.route.snapshot.params['name']).subscribe({
         next: list => {

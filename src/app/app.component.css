@@ -29,7 +29,6 @@
 #site-description {
     font-size: 1.5rem;
     text-transform: uppercase;
-
 }
 
 #site-header {
@@ -79,6 +78,6 @@ a:hover {
     }
 
     #site-description {
-        font-size: 1rem;
+        display: none;
     }
 }

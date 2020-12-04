@@ -14,8 +14,13 @@ export class AllListsComponent implements OnInit {
   }
 
   ngOnInit() {
+
     let el = document.getElementById('watermark-img');
+    let width = window.innerWidth;
     el.style.filter = `blur(5px)`;
+    if(width < 500){
+      el.style.visibility = 'visible';
+    }
     this.listService.getLists().subscribe({
       next: lists => {
         this.lists = lists;
