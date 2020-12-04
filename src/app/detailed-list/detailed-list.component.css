@@ -4,22 +4,6 @@
     width: calc(100vw - 40px);
 }
 
-.name {
-    position: fixed;
-    text-transform: uppercase;
-    background-color: white;
-    min-width: 100px;
-    /* text-align: center; */
-    
-
-    top: 66px;
-    left: 453px;
-    font-size: 1.1rem; 
-    letter-spacing: -0.5px;
-    padding-left: 5px;
-    line-height: 0.8;
-}
-
 .name-big {
     position: fixed;
     top: 6px;
@@ -172,6 +156,8 @@
         line-height: 0.7;
         text-align: bottom;
         font-size: 3rem;
+        margin-bottom: -5px;
+
     }
 
     #nav {
