@@ -134,6 +134,7 @@ export class DetailedListComponent implements OnInit, AfterViewInit {
         div.appendChild(thumbNode);
         var playButton = document.createElement('div');
         playButton.setAttribute('class', 'play');
+        playButton.innerHTML = "▶&#xFE0E;";
         div.appendChild(playButton);
         div.onclick = (e) => {
           this.labnolIframe(e.currentTarget);
