@@ -6,6 +6,7 @@
     letter-spacing: -2px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     z-index: 1;
+    word-break: normal;
 }
 
 .list {
