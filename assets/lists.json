@@ -2311,7 +2311,7 @@
             {
                 "song": "Anymore ft. Kim Petras [Laura Les Remix]",
                 "artist": "lil aaron",
-                "description": "",
+                "description": "My idea is based off of this paper, titled GlyphGAN: Style-Consistent Font Generation Based on Generative Adversarial Networks (https://arxiv.org/pdf/1905.12502.pdf). I will be creating a GAN deep learning model to generate novel typefaces. I want to explore the latent space that is created, and to observe the continuous forms that are created. I also want to experiment with training the model with different data. For example, I found a collection of retro video game fonts, and would like for the model to learn more domain-specific latent spaces, as oppsed to what the paper did, which was to train the model on many varying typefaces (some of questionable quality and craft), to create a more general latent space.  ",
                 "link": "9W5FOFZg-uI"
             },
             {
