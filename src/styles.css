@@ -5,6 +5,7 @@ body, html {
 
     overflow: hidden;
     scroll-behavior: smooth;
+    word-break: break-word;
 }
 
 body {
