@@ -1,0 +1,34 @@
+<div class="song-container">
+    <div class="number">{{index + 1}}</div>
+
+    <div class="song-info">
+
+        <div class="song-link"  *ngIf="!smallScreen">
+            <div class="youtube-player" id="{{song.link}}" *ngIf="!song.link.startsWith('http')">
+                <div (click)="doIFrame(song.link)">
+                    <img [src]='getSrc(song.link)'>
+                    <div class="play">▶&#xFE0E;</div>
+                </div>
+            </div>
+            <iframe *ngIf="song.link.startsWith('http')" [src]="song.link | safe" controls=0 modestbranding rel=0 frameborder="0"  color="#1e90ff" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    
+        <span class="song-name">{{song.song}}</span>
+        <br>
+        <span class="song-artist">{{song.artist}}</span>
+
+
+        <div class="song-link"  *ngIf="smallScreen">
+            <div class="youtube-player" id="{{song.link}}" *ngIf="!song.link.startsWith('http')">
+                <div (click)="doIFrame(song.link)">
+                    <img [src]='getSrc(song.link)'>
+                    <div class="play">▶&#xFE0E;</div>
+                </div>
+            </div>
+            <iframe *ngIf="song.link.startsWith('http')" [src]="song.link | safe" controls=0 modestbranding rel=0 frameborder="0"  color="#1e90ff" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="song-description">{{song.description}}</div>
+        
+    </div>
+</div>

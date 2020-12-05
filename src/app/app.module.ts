@@ -10,6 +10,8 @@ import { SongComponent } from './song/song.component';
 import { SafePipe } from './safe.pipe';
 import { DetailedListComponent } from './detailed-list/detailed-list.component';
 import { AllListsComponent } from './all-lists/all-lists.component';
+import { SongDetailedComponent } from './song-detailed/song-detailed.component';
+import { NavComponent } from './nav/nav.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { AllListsComponent } from './all-lists/all-lists.component';
     SongComponent,
     SafePipe,
     DetailedListComponent,
-    AllListsComponent
+    AllListsComponent,
+    SongDetailedComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,

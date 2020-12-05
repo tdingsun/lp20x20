@@ -1,5 +1,5 @@
 import { AfterViewInit, Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 import { List } from '../list';
 import { ListService } from '../list.service';
 
@@ -13,35 +13,8 @@ export class DetailedListComponent implements OnInit, AfterViewInit {
   name: string = null;
   color: string = null;
   smallScreen: boolean = false;
-  hoverNext: boolean = false;
-  hoverPrevious: boolean = false;
-
-
-  names: string[] = [
-    "aayushi",
-    "adrian",
-    "aedan",
-    "annabelle",
-    "elias",
-    "ellen",
-    "greta",
-    "ja-yoon",
-    "kay",
-    "kevin",
-    "libby",
-    "mac",
-    "maria",
-    "raina",
-    "rohan",
-    "sara",
-    "shingo",
-    "theia",
-    "tiger",
-    "wen"
-  ]
-
   
-  constructor(private listService: ListService, private router:Router, private route:ActivatedRoute) { }
+  constructor(private listService: ListService, private route:ActivatedRoute) { }
   ngOnInit(): void {
     let el = document.getElementById('watermark-img');
     let width = window.innerWidth;
@@ -65,34 +38,13 @@ export class DetailedListComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit(): void {
-    this.initYouTubeVideos();
+    // this.initYouTubeVideos();
   }
 
   switchHeaderColor(color){
     document.getElementById('header').style.color = color;
   }
 
-  onPrevious(name): void {
-    let i = this.names.indexOf(name.toLowerCase());
-    let previousName = "index";
-    if(i == 0){
-      previousName = this.names[this.names.length - 1];
-    } else {
-      previousName = this.names[i- 1];
-    }
-    this.router.navigate([`/${previousName}`]);
-  }
-
-  onNext(name): void {
-    let i = this.names.indexOf(name.toLowerCase());
-    let nextName = "index";
-    if(i == this.names.length - 1){
-      nextName = this.names[0];
-    } else {
-      nextName = this.names[i + 1];
-    }
-    this.router.navigate([`/${nextName}`]);
-  }
 
   labnolIframe(div) {
     var iframe = document.createElement('iframe');
@@ -113,23 +65,25 @@ export class DetailedListComponent implements OnInit, AfterViewInit {
   }
 
 
+
   initYouTubeVideos() {
+    console.log("loop");
+
     var playerElements = document.getElementsByClassName('youtube-player');
     if(playerElements.length == 0){
       setTimeout(this.initYouTubeVideos, 250);
     } else {
+
       for (var n = 0; n < playerElements.length; n++) {
         var videoId = playerElements[n].id;
+
+        console.log(videoId);
+
         var div = document.createElement('div');
         div.setAttribute('data-id', videoId);
         var thumbNode = document.createElement('img');
         
-        let videoIdNoMaxRes = ["0146f9YwCjM", "I8t_EEPJdFU"];
-        if(videoIdNoMaxRes.includes(videoId)){
-          thumbNode.src = '//i.ytimg.com/vi/ID/hqdefault.jpg'.replace('ID', videoId);
-        } else {
-          thumbNode.src = '//i.ytimg.com/vi/ID/maxresdefault.jpg'.replace('ID', videoId);
-        }
+
 
         div.appendChild(thumbNode);
         var playButton = document.createElement('div');

@@ -1,0 +1,4 @@
+<div id="nav" [ngStyle]="{'color': color}">
+    <div id="previous-button" (click)="onPrevious(name)" (mouseover)="hoverPrevious=true" (mouseout)="hoverPrevious=false" [ngStyle]="{'background-color': hoverPrevious==true ? color : 'white'}">←</div>
+    <div id="next-button" (click)="onNext(name)" (mouseover)="hoverNext=true" (mouseout)="hoverNext=false" [ngStyle]="{'background-color': hoverNext==true ? color : 'white'}">→</div>
+</div>
