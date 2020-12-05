@@ -2,7 +2,7 @@
     border-bottom: 1.5px dotted;
     padding: 10px;
     display: flex;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
 .number {
@@ -11,6 +11,8 @@
 }
 
 .song-artist {
-    font-style: italic;
+    font-size: 1rem!important;
+    line-height: 1;
+    letter-spacing: 0;
 
 }
