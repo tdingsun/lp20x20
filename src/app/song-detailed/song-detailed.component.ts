@@ -31,6 +31,7 @@ export class SongDetailedComponent implements OnInit {
 
   doIFrame(link) {
     var iframe = document.createElement('iframe');
+    iframe.className = 'youtube-iframe';
     iframe.setAttribute(
       'src',
       'https://www.youtube.com/embed/' + link + '?autoplay=1&rel=0'
