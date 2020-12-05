@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { List } from '../list';
 import { ListService } from '../list.service';
@@ -8,7 +8,7 @@ import { ListService } from '../list.service';
   templateUrl: './detailed-list.component.html',
   styleUrls: ['./detailed-list.component.css']
 })
-export class DetailedListComponent implements OnInit {
+export class DetailedListComponent implements OnInit, AfterViewInit {
   list: List = null;
   name: string = null;
   color: string = null;
@@ -39,6 +39,8 @@ export class DetailedListComponent implements OnInit {
     "tiger",
     "wen"
   ]
+
+  
   constructor(private listService: ListService, private router:Router, private route:ActivatedRoute) { }
   ngOnInit(): void {
     let el = document.getElementById('watermark-img');
@@ -60,6 +62,10 @@ export class DetailedListComponent implements OnInit {
         }
       })
     });
+  }
+
+  ngAfterViewInit(): void {
+    this.initYouTubeVideos();
   }
 
   switchHeaderColor(color){
@@ -88,4 +94,53 @@ export class DetailedListComponent implements OnInit {
     this.router.navigate([`/${nextName}`]);
   }
 
+  labnolIframe(div) {
+    var iframe = document.createElement('iframe');
+    iframe.setAttribute(
+      'src',
+      'https://www.youtube.com/embed/' + div.dataset.id + '?autoplay=1&rel=0'
+    );
+    iframe.setAttribute('frameborder', '0');
+    iframe.setAttribute('allowfullscreen', '1');
+    iframe.setAttribute('modestbranding', '1');
+    iframe.setAttribute('controls', '0');
+    iframe.setAttribute('rel', '0');
+    iframe.setAttribute(
+      'allow',
+      'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
+    );
+    div.parentNode.replaceChild(iframe, div);
+  }
+
+
+  initYouTubeVideos() {
+    var playerElements = document.getElementsByClassName('youtube-player');
+    if(playerElements.length == 0){
+      setTimeout(this.initYouTubeVideos, 250);
+    } else {
+      for (var n = 0; n < playerElements.length; n++) {
+        var videoId = playerElements[n].id;
+        var div = document.createElement('div');
+        div.setAttribute('data-id', videoId);
+        var thumbNode = document.createElement('img');
+        
+        let videoIdNoMaxRes = ["0146f9YwCjM", "I8t_EEPJdFU"];
+        if(videoIdNoMaxRes.includes(videoId)){
+          thumbNode.src = '//i.ytimg.com/vi/ID/hqdefault.jpg'.replace('ID', videoId);
+        } else {
+          thumbNode.src = '//i.ytimg.com/vi/ID/maxresdefault.jpg'.replace('ID', videoId);
+        }
+
+        div.appendChild(thumbNode);
+        var playButton = document.createElement('div');
+        playButton.setAttribute('class', 'play');
+        div.appendChild(playButton);
+        div.onclick = (e) => {
+          this.labnolIframe(e.currentTarget);
+        };
+        playerElements[n].appendChild(div);
+      }
+    }
+
+  }
 }
