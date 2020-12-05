@@ -10,6 +10,9 @@ export class SongDetailedComponent implements OnInit {
   @Input() song: Song;
   @Input() index: number;
   @Input() smallScreen: boolean = false;
+  @Input() color: string;
+
+  hover:boolean = false;
 
   videoIdNoMaxRes:string[] = ["0146f9YwCjM", "I8t_EEPJdFU"];
 

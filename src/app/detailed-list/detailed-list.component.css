@@ -5,12 +5,13 @@
     font-size: 5.3rem;
     letter-spacing: -2px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 1;
 }
 
 .list {
     overflow-y: scroll;
     margin-top: 5px;
-    height: calc(100vh - 108px);
+    height: calc(100vh - 98px);
     width: 100%;
     border-top: 1px solid;
     box-sizing: border-box;

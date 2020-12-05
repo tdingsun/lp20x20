@@ -2,5 +2,11 @@
 <div class=name *ngIf="name" [ngStyle]="{'color': color}">{{name}}</div>
 
 <div class=list *ngIf="list" [ngStyle]="{'border-color': color}">
-        <app-song-detailed [song]=song [index]=i [smallScreen]=smallScreen *ngFor="let song of list.list; index as i"></app-song-detailed>
+        <app-song-detailed 
+            [song]=song 
+            [index]=i 
+            [smallScreen]=smallScreen 
+            [color]=color 
+            *ngFor="let song of list.list; index as i">
+        </app-song-detailed>
 </div>

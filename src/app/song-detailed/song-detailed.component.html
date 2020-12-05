@@ -4,7 +4,7 @@
     <div class="song-info">
 
         <div class="song-link"  *ngIf="!smallScreen">
-            <div class="youtube-player" id="{{song.link}}" *ngIf="!song.link.startsWith('http')">
+            <div class="youtube-player" id="{{song.link}}" *ngIf="!song.link.startsWith('http')" (mouseover)="hover=true" (mouseout)="hover=false" [ngStyle]="{'background-color': hover==true ? color : 'dodgerblue'}">
                 <div (click)="doIFrame(song.link)">
                     <img [src]='getSrc(song.link)'>
                     <div class="play">▶&#xFE0E;</div>
@@ -19,7 +19,7 @@
 
 
         <div class="song-link"  *ngIf="smallScreen">
-            <div class="youtube-player" id="{{song.link}}" *ngIf="!song.link.startsWith('http')">
+            <div class="youtube-player" id="{{song.link}}" *ngIf="!song.link.startsWith('http')" (mouseover)="hover=true" (mouseout)="hover=false" [ngStyle]="{'background-color': hover==true ? color : 'dodgerblue'}">
                 <div (click)="doIFrame(song.link)">
                     <img [src]='getSrc(song.link)'>
                     <div class="play">▶&#xFE0E;</div>
@@ -29,6 +29,6 @@
         </div>
 
         <div class="song-description">{{song.description}}</div>
-        
+
     </div>
 </div>
