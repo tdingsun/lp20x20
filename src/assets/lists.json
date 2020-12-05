@@ -130,7 +130,7 @@
     {
         "name": "Adrian",
         "roman": "II",
-        "color": "orangered",
+        "color": "tomato",
         "list": [
             {
                 "song": "Sex",
@@ -386,7 +386,7 @@
     {
         "name": "Annabelle",
         "roman": "V",
-        "color": "darkorchid",
+        "color": "mediumslateblue",
         "list": [
             {
                 "song": "Sex",
@@ -514,7 +514,7 @@
     {
         "name": "Elias",
         "roman": "VI",
-        "color": "darkorange",
+        "color": "chocolate",
         "list": [
             {
                 "song": "Sex",
@@ -642,7 +642,7 @@
     {
         "name": "Ellen",
         "roman": "VII",
-        "color": "limegreen",
+        "color": "mediumseagreen",
         "list": [
             {
                 "song": "Sex",
@@ -770,7 +770,7 @@
     {
         "name": "Greta",
         "roman": "IV",
-        "color": "skyblue",
+        "color": "steelblue",
         "list": [
             {
                 "song": "Sex",
@@ -1538,7 +1538,7 @@
     {
         "name": "Maria",
         "roman": "XIII",
-        "color": "yellowgreen",
+        "color": "olivedrab",
         "list": [
             {
                 "song": "Sex",
@@ -1666,7 +1666,7 @@
     {
         "name": "Raina",
         "roman": "XVI",
-        "color": "orchid",
+        "color": "hotpink",
         "list": [
             {
                 "song": "Sex",
@@ -2434,7 +2434,7 @@
     {
         "name": "Wen",
         "roman": "XX",
-        "color": "cornflowerblue",
+        "color": "deepskyblue",
         "list": [
             {
                 "song": "Sex",

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Router, ActivatedRoute } from '@angular/router';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,8 +7,8 @@ import { Router, ActivatedRoute } from '@angular/router';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'lp20x20';
-  constructor(private router:Router, private route:ActivatedRoute) {
+  title = 'LP20X20';
+  constructor(private router:Router) {
   }
 
   onClick() {

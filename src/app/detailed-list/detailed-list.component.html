@@ -1,11 +1,11 @@
-<div class=name *ngIf="name">{{name}}</div>
+<div class=name *ngIf="name" [ngStyle]="{'color': color}">{{name}}</div>
 
-<div id="nav">
-    <div id="previous-button" (click)="onPrevious(name)">←</div>
-    <div id="next-button" (click)="onNext(name)">→</div>
+<div id="nav" [ngStyle]="{'color': color}">
+    <div id="previous-button" (click)="onPrevious(name)" (mouseover)="hoverPrevious=true" (mouseout)="hoverPrevious=false" [ngStyle]="{'background-color': hoverPrevious==true ? list.color : 'white'}">←</div>
+    <div id="next-button" (click)="onNext(name)" (mouseover)="hoverNext=true" (mouseout)="hoverNext=false" [ngStyle]="{'background-color': hoverNext==true ? list.color : 'white'}">→</div>
 </div>
 
-    <div class=list *ngIf="list">
+    <div class=list *ngIf="list" [ngStyle]="{'border-color': color}">
         <div class="song-container" *ngFor="let song of list.list; index as i">
             <div class="number">{{i + 1}}</div>
 

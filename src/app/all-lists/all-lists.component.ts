@@ -14,6 +14,7 @@ export class AllListsComponent implements OnInit {
   }
 
   ngOnInit() {
+    document.getElementById('header').style.color = 'dodgerblue';
 
     let el = document.getElementById('watermark-img');
     let width = window.innerWidth;

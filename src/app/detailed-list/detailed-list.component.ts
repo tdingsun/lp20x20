@@ -11,16 +11,20 @@ import { ListService } from '../list.service';
 export class DetailedListComponent implements OnInit {
   list: List = null;
   name: string = null;
+  color: string = null;
   smallScreen: boolean = false;
+  hoverNext: boolean = false;
+  hoverPrevious: boolean = false;
+
 
   names: string[] = [
     "aayushi",
     "adrian",
     "aedan",
-    "andreas",
     "annabelle",
     "elias",
     "ellen",
+    "greta",
     "ja-yoon",
     "kay",
     "kevin",
@@ -51,9 +55,15 @@ export class DetailedListComponent implements OnInit {
         next: list => {
           this.list = list;
           this.name = list.name;
+          this.color = list.color;
+          this.switchHeaderColor(list.color);
         }
       })
     });
+  }
+
+  switchHeaderColor(color){
+    document.getElementById('header').style.color = color;
   }
 
   onPrevious(name): void {

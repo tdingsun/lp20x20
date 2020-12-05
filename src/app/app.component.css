@@ -27,7 +27,7 @@
 #site-header {
     font-size: 5.2rem;
     display: inline-block;
-    transition: 0.5s;
+    transition: filter 0.5s;
     letter-spacing: -3px;
     line-height: 0;
 
