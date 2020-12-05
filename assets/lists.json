@@ -7,7 +7,7 @@
             {
                 "song": "Sex",
                 "artist": "Baths",
-                "description": "Is this love or is this focus? Is this love or is this focus?  Is this love or is this focus?  Is this love or is this focus?  Is this love or is this focus?  Is this love or is this focus?  Is this love or is this focus?  Is this love or is this focus?  Is this love or is this focus?  Is this love or is this focus?  Is this love or is this focus?  Is this love or is this focus?  Is this love or is this focus?  Is this love or is this focus?  Is this love or is this focus?  Is this love or is this focus?  Is this love or is this focus?  Is this love or is this focus?  Is this love or is this focus?  Is this love or is this focus?  Is this love or is this focus?  Is this love or is this focus?  Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? Is this love or is this focus? ",
+                "description": "Words produce meaning not only through their semiotic funtion to merely point to some concept in the world, but also multisensorially, creating (weak) synethetic relationships between the word and different colors, sounds, smells, tastes, and textures. Even the visuality of the word itself — not necessarily the typographic choices used to render it, but the actual shape of the words and base letterforms themselves — can be regarded as objects with aesthetic values. Moreover, grouping words together in order to appeal to some historical or social taxonomy or system of classification creates further resonance between, drawing from shared cultural systems of knowledge.",
                 "link": "https://www.youtube.com/embed/1wwijI6z8F8"
             },
             {
@@ -130,7 +130,7 @@
     {
         "name": "Adrian",
         "roman": "II",
-        "color": "orangered",
+        "color": "tomato",
         "list": [
             {
                 "song": "Sex",
@@ -384,137 +384,9 @@
     },
 
     {
-        "name": "Andreas",
-        "roman": "IV",
-        "color": "skyblue",
-        "list": [
-            {
-                "song": "Sex",
-                "artist": "Baths",
-                "description": "Is this love or is this focus?",
-                "link": "https://www.youtube.com/embed/1wwijI6z8F8"
-            },
-            {
-                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
-                "artist": "lil aaron",
-                "description": "laura les forever",
-                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
-            },
-            {
-                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
-                "artist": "lil aaron",
-                "description": "laura les forever",
-                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
-            },
-            {
-                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
-                "artist": "lil aaron",
-                "description": "laura les forever",
-                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
-            },
-            {
-                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
-                "artist": "lil aaron",
-                "description": "laura les forever",
-                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
-            },
-            {
-                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
-                "artist": "lil aaron",
-                "description": "laura les forever",
-                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
-            },
-            {
-                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
-                "artist": "lil aaron",
-                "description": "laura les forever",
-                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
-            },
-            {
-                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
-                "artist": "lil aaron",
-                "description": "laura les forever",
-                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
-            },
-            {
-                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
-                "artist": "lil aaron",
-                "description": "laura les forever",
-                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
-            },
-            {
-                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
-                "artist": "lil aaron",
-                "description": "laura les forever",
-                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
-            },
-            {
-                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
-                "artist": "lil aaron",
-                "description": "laura les forever",
-                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
-            },
-            {
-                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
-                "artist": "lil aaron",
-                "description": "laura les forever",
-                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
-            },
-            {
-                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
-                "artist": "lil aaron",
-                "description": "laura les forever",
-                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
-            },
-            {
-                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
-                "artist": "lil aaron",
-                "description": "laura les forever",
-                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
-            },
-            {
-                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
-                "artist": "lil aaron",
-                "description": "laura les forever",
-                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
-            },
-            {
-                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
-                "artist": "lil aaron",
-                "description": "laura les forever",
-                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
-            },
-            {
-                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
-                "artist": "lil aaron",
-                "description": "laura les forever",
-                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
-            },
-            {
-                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
-                "artist": "lil aaron",
-                "description": "laura les forever",
-                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
-            },
-            {
-                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
-                "artist": "lil aaron",
-                "description": "laura les forever",
-                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
-            },
-            {
-                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
-                "artist": "lil aaron",
-                "description": "laura les forever",
-                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
-            }
-        ]
-    },
-
-    {
         "name": "Annabelle",
         "roman": "V",
-        "color": "darkorchid",
+        "color": "mediumslateblue",
         "list": [
             {
                 "song": "Sex",
@@ -642,7 +514,7 @@
     {
         "name": "Elias",
         "roman": "VI",
-        "color": "darkorange",
+        "color": "chocolate",
         "list": [
             {
                 "song": "Sex",
@@ -770,7 +642,135 @@
     {
         "name": "Ellen",
         "roman": "VII",
-        "color": "limegreen",
+        "color": "mediumseagreen",
+        "list": [
+            {
+                "song": "Sex",
+                "artist": "Baths",
+                "description": "Is this love or is this focus?",
+                "link": "https://www.youtube.com/embed/1wwijI6z8F8"
+            },
+            {
+                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
+                "artist": "lil aaron",
+                "description": "laura les forever",
+                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
+            },
+            {
+                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
+                "artist": "lil aaron",
+                "description": "laura les forever",
+                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
+            },
+            {
+                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
+                "artist": "lil aaron",
+                "description": "laura les forever",
+                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
+            },
+            {
+                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
+                "artist": "lil aaron",
+                "description": "laura les forever",
+                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
+            },
+            {
+                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
+                "artist": "lil aaron",
+                "description": "laura les forever",
+                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
+            },
+            {
+                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
+                "artist": "lil aaron",
+                "description": "laura les forever",
+                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
+            },
+            {
+                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
+                "artist": "lil aaron",
+                "description": "laura les forever",
+                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
+            },
+            {
+                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
+                "artist": "lil aaron",
+                "description": "laura les forever",
+                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
+            },
+            {
+                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
+                "artist": "lil aaron",
+                "description": "laura les forever",
+                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
+            },
+            {
+                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
+                "artist": "lil aaron",
+                "description": "laura les forever",
+                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
+            },
+            {
+                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
+                "artist": "lil aaron",
+                "description": "laura les forever",
+                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
+            },
+            {
+                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
+                "artist": "lil aaron",
+                "description": "laura les forever",
+                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
+            },
+            {
+                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
+                "artist": "lil aaron",
+                "description": "laura les forever",
+                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
+            },
+            {
+                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
+                "artist": "lil aaron",
+                "description": "laura les forever",
+                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
+            },
+            {
+                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
+                "artist": "lil aaron",
+                "description": "laura les forever",
+                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
+            },
+            {
+                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
+                "artist": "lil aaron",
+                "description": "laura les forever",
+                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
+            },
+            {
+                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
+                "artist": "lil aaron",
+                "description": "laura les forever",
+                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
+            },
+            {
+                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
+                "artist": "lil aaron",
+                "description": "laura les forever",
+                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
+            },
+            {
+                "song": "Anymore (feat. Kim Petras) [Laura Les Remix]",
+                "artist": "lil aaron",
+                "description": "laura les forever",
+                "link": "https://www.youtube.com/embed/9W5FOFZg-uI"
+            }
+        ]
+    },
+
+    {
+        "name": "Greta",
+        "roman": "IV",
+        "color": "steelblue",
         "list": [
             {
                 "song": "Sex",
@@ -1538,7 +1538,7 @@
     {
         "name": "Maria",
         "roman": "XIII",
-        "color": "yellowgreen",
+        "color": "olivedrab",
         "list": [
             {
                 "song": "Sex",
@@ -1666,7 +1666,7 @@
     {
         "name": "Raina",
         "roman": "XVI",
-        "color": "orchid",
+        "color": "hotpink",
         "list": [
             {
                 "song": "Sex",
@@ -2434,7 +2434,7 @@
     {
         "name": "Wen",
         "roman": "XX",
-        "color": "cornflowerblue",
+        "color": "deepskyblue",
         "list": [
             {
                 "song": "Sex",
