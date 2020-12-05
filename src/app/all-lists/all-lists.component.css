@@ -4,7 +4,7 @@
     bottom: 0px;
     left: 0px;
     overflow-x: scroll;
-    height: calc(100vh - 130px);
+    height: calc(100% - 130px);
     width: 100vw;
     padding-bottom: 20px;
 }
@@ -13,28 +13,25 @@ app-list:first-of-type {
     margin-left: 20px;
 }
 
-
-
-#infobox {
+#ogre {
     position: fixed;
     width: 25px;
     height: 25px;
     top: 20px;
     right: 20px;
     cursor: pointer;
+    filter: hue-rotate(215deg) brightness(1.25);
 }
 
-#infobox img {
+#ogre img {
     width: 100%;
-
 }
 
-#infobox:hover {
-    color: white;
-
+#ogre:hover {
+    filter: unset;
 }
 
-#info {
+#easter-egg {
     position: fixed;
     width: 300px;
     height: 150px;
@@ -42,7 +39,7 @@ app-list:first-of-type {
     right: calc(50vw - 150px);
 }
 
-#info img {
+#easter-egg img {
     width: 100%;
 }
 
@@ -54,9 +51,8 @@ app-list:first-of-type {
     app-list:first-of-type {
         margin-left: 0;
     }
-    #infobox {
+    #ogre {
         top: 5px;
         right: 5px;
     }
-    
 }

@@ -12,8 +12,8 @@ body {
     box-sizing: border-box;
 }
 
-app-list:first-of-type .list {
-    border-left: 1px solid!important;
+app-list:hover {
+    z-index: 2;
 }
 
 app-list:last-of-type {
@@ -24,18 +24,15 @@ app-list:last-of-type {
     border-bottom: none;
 }
 
-
-
-
 #watermark-container {
     position: fixed;
 }
 
 #watermark-img {
     position: fixed;
+    left: 0;
     top: 160px;
     width: 100vw;
-    left: -10px;
     opacity: 0.3;
     z-index: 1;
     transition: filter 0.25s;

@@ -42,10 +42,10 @@ export class AllListsComponent implements OnInit {
   }
 
   onClick() {
-    document.querySelector('#info').toggleAttribute("hidden");
+    document.querySelector('#easter-egg').toggleAttribute("hidden");
     setTimeout(function(){
-      document.querySelector('#info').toggleAttribute("hidden");
-    }, 2000);
+      document.querySelector('#easter-egg').toggleAttribute("hidden");
+    }, 1000);
   }
 
 }

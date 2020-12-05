@@ -1,11 +1,12 @@
 #root-container {
     height: 100vh;
-    width: calc(100vw - 40px);
+    width: 100vw;
     position: fixed;
     left: 0;
     top: 0;
     z-index: 1;
     padding: 20px;
+    box-sizing: border-box;
 }
 
 #header {
