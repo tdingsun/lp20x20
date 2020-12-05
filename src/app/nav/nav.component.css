@@ -1,4 +1,22 @@
+#left {
+    left: 5px;
+}
 
+#right {
+    right: 5px;
+}
+
+#left, #right {
+    position: fixed;
+    bottom: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#left:hover, #right:hover {
+    color: dodgerblue!important;
+}
 #nav {
     float: right;
     position: fixed;
