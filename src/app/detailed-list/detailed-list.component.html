@@ -10,9 +10,11 @@
             <div class="number">{{i + 1}}</div>
 
             <div class="song-info" *ngIf="!smallScreen">
-                <div class="youtube-player" id="{{song.link}}" *ngIf="!song.link.startsWith('http')"></div>
+                <div class="song-link">
+                    <div class="youtube-player" id="{{song.link}}" *ngIf="!song.link.startsWith('http')"></div>
+                    <iframe *ngIf="song.link.startsWith('http')" [src]="song.link | safe" controls=0 modestbranding rel=0 frameborder="0"  color="#1e90ff" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
 
-                <iframe class="song-link" *ngIf="song.link.startsWith('http')" [src]="song.link | safe" controls=0 modestbranding rel=0 frameborder="0"  color="#1e90ff" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <span class="song-name">{{song.song}}</span>
                 <br>
                 <span class="song-artist">{{song.artist}}</span>
@@ -22,7 +24,10 @@
             <div class="song-info" *ngIf="smallScreen">
                 <span class="song-name">{{song.song}} </span>
                 <span class="song-artist">by {{song.artist}}</span>
-                <iframe class="song-link" [src]="song.link | safe" controls=0 modestbranding rel=0 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="song-link">
+                    <iframe *ngIf="song.link.startsWith('http')" [src]="song.link | safe" controls=0 modestbranding rel=0 frameborder="0"  color="#1e90ff" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="youtube-player" id="{{song.link}}" *ngIf="!song.link.startsWith('http')"></div>
+                </div>
                 <div class="song-description">{{song.description}}</div>
             </div>
 
