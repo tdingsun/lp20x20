@@ -14,7 +14,15 @@ export class SongDetailedComponent implements OnInit {
 
   hover:boolean = false;
 
-  videoIdNoMaxRes:string[] = ["0146f9YwCjM", "I8t_EEPJdFU"];
+  videoIdNoMaxRes:string[] = [
+    "0146f9YwCjM", 
+    "I8t_EEPJdFU",
+    "vhDnWLfm07o",
+    "hsm4poTWjMs",
+    "5wmfXve11rM",
+    "nkg7VmV1Q",
+    "AJOVf0DH4x4"
+  ];
 
   constructor() { }
 
