@@ -43,6 +43,16 @@ app-list:first-of-type {
     width: 100%;
 }
 
+#easter-egg img:hover {
+    box-shadow: 1px 1px 5px 2px dodgerblue;
+}
+
+#easter-egg p {
+    color: darkred;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
 @media only screen and (max-width: 580px){
     #lists-container {
         padding: 5px;

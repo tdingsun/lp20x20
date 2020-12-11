@@ -46,7 +46,7 @@ export class AllListsComponent implements OnInit {
     document.querySelector('#easter-egg').toggleAttribute("hidden");
     setTimeout(function(){
       document.querySelector('#easter-egg').toggleAttribute("hidden");
-    }, 1000);
+    }, 1500);
   }
 
 }
