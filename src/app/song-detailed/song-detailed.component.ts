@@ -20,14 +20,16 @@ export class SongDetailedComponent implements OnInit {
     "vhDnWLfm07o",
     "hsm4poTWjMs",
     "5wmfXve11rM",
-    "nkg7VmV1Q",
     "AJOVf0DH4x4",
     "iRgLhEGEetc",
     "qJZe5YGXQzI",
     "-b7NRg4hoD0",
     "BFhy52WtO3o",
     "lwXo4H1zXpI",
-    "uhi8m8f5SPo"
+    "uhi8m8f5SPo",
+    "qwIRY1dUYvA",
+    "dcQHuCjfb5s",
+    "U4S-z5Z3yic"
   ];
 
   constructor() { }
@@ -54,6 +56,12 @@ export class SongDetailedComponent implements OnInit {
       iframe.setAttribute(
         'src',
         'https://www.youtube.com/embed/' + link + '?start=175&autoplay=1&rel=0'
+      );
+    }
+    if(link === "Pu0akEwsY2Y") { //roy blair hack
+      iframe.setAttribute(
+        'src',
+        'https://www.youtube.com/embed/' + link + '?start=608&autoplay=1&rel=0'
       );
     }
     iframe.setAttribute('frameborder', '0');
