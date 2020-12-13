@@ -172,7 +172,7 @@
                 "song": "Lightweight",
                 "artist": "bickle",
                 "description": "i am an unapologetic millennial? so when i heard this track i was like “fuck, this is like animal collective” but also 2020 pop, oh my.",
-                "link": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/753108472&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                "link": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/753108472&color=%23000000&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false&visual=true"
             },
             {
                 "song": "Above Not Below",
@@ -250,7 +250,7 @@
                 "song": "It Isnt So Bad To Be Alone",
                 "artist": "Theodore Cale Schafer",
                 "description": "it isn’t.",
-                "link": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/809261746&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                "link": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/809261746&color=%23000000&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false&visual=true"
             }
         ]
     },
@@ -258,127 +258,127 @@
     {
         "name": "Aedan",
         "roman": "III",
-        "color": "orange",
+        "color": "darkorange",
         "list": [
             {
-                "song": "",
-                "artist": "",
+                "song": "La Santa",
+                "artist": "Bad Bunny",
                 "description": "",
-                "link": ""
+                "link": "j7ZYAX_MkfI"
             },
             {
-                "song": "",
-                "artist": "",
+                "song": "The Difference (feat. Toro y Moi)",
+                "artist": "Flume",
                 "description": "",
-                "link": ""
+                "link": "MCRiUi28UpA"
             },
             {
-                "song": "",
-                "artist": "",
+                "song": "Delete Forever",
+                "artist": "Grimes",
                 "description": "",
-                "link": ""
+                "link": "gvzC8MmC850"
             },
             {
-                "song": "",
-                "artist": "",
+                "song": "Halogen 2",
+                "artist": "Half Waif",
                 "description": "",
-                "link": ""
+                "link": "nvnYe9l53T0"
             },
             {
-                "song": "",
-                "artist": "",
+                "song": "Tell Me You Love Me",
+                "artist": "Sufjan Stevens",
                 "description": "",
-                "link": ""
+                "link": "UYLc_WF2Rrk"
             },
             {
-                "song": "",
-                "artist": "",
+                "song": "I Know The End",
+                "artist": "Pheobe Bridgers",
                 "description": "",
-                "link": ""
+                "link": "WJ9-xN6dCW4"
             },
             {
-                "song": "",
-                "artist": "",
+                "song": "Zombie Girl",
+                "artist": "Adrianne Lenker",
                 "description": "",
-                "link": ""
+                "link": "4Mkj4tXsI7E"
             },
             {
-                "song": "",
-                "artist": "",
+                "song": "Bless Me",
+                "artist": "Moses Sumney",
                 "description": "",
-                "link": ""
+                "link": "D386dU9thiA"
             },
             {
-                "song": "",
-                "artist": "",
+                "song": "Dolerme",
+                "artist": "Rosalia",
                 "description": "",
-                "link": ""
+                "link": "BAWa8qk5LN4"
             },
             {
-                "song": "",
-                "artist": "",
+                "song": "Insert Generic Name",
+                "artist": "Okay Kaya",
                 "description": "",
-                "link": ""
+                "link": "KQzIDRihz40"
             },
             {
-                "song": "",
-                "artist": "",
+                "song": "Headaches",
+                "artist": "Raveena",
                 "description": "",
-                "link": ""
+                "link": "_gqpXVAY3fI"
             },
             {
-                "song": "",
-                "artist": "",
+                "song": "Romanticist/Dream Palette",
+                "artist": "Yves Tumor",
                 "description": "",
-                "link": ""
+                "link": "LJ4o9ppV4yg"
             },
             {
-                "song": "",
-                "artist": "",
+                "song": "Spotlight",
+                "artist": "Jessie Ware",
                 "description": "",
-                "link": ""
+                "link": "kw56LGfrf4A"
             },
             {
-                "song": "",
-                "artist": "",
+                "song": "On",
+                "artist": "Kelly Lee Owens",
                 "description": "",
-                "link": ""
+                "link": "53EWchMsij8"
             },
             {
-                "song": "",
-                "artist": "",
+                "song": "Do U Wanna",
+                "artist": "Porches",
                 "description": "",
-                "link": ""
+                "link": "eJT6F5bKuUs"
             },
             {
-                "song": "",
-                "artist": "",
+                "song": "Witches",
+                "artist": "Waxahatchee",
                 "description": "",
-                "link": ""
+                "link": "r8fhrWTVdVU"
             },
             {
-                "song": "",
-                "artist": "",
+                "song": "On the Floor",
+                "artist": "Perfume Genius",
                 "description": "",
-                "link": ""
+                "link": "ln4S83JeY2Y"
             },
             {
-                "song": "",
-                "artist": "",
+                "song": "Machote",
+                "artist": "Arca",
                 "description": "",
-                "link": ""
+                "link": "Qo9T2MR8pMY"
             },
             {
-                "song": "",
-                "artist": "",
+                "song": "Like I Loved You",
+                "artist": "Caribou",
                 "description": "",
-                "link": ""
+                "link": "C03HdzpvshY"
             },
             {
-                "song": "",
-                "artist": "",
+                "song": "Snowchild",
+                "artist": "The Weekend",
                 "description": "",
-                "link": ""
+                "link": "G0JKdFjWkLA"
             }
         ]
     },
@@ -461,8 +461,8 @@
                 "link": "LmRkfdDIyKI"
             },
             {
-                "song": "Moses Sumney",
-                "artist": "Cut Me",
+                "song": "Cut Me",
+                "artist": "Moses Sumney",
                 "description": "how dreamy. like if u could simmer expressions into a silky broth",
                 "link": "9GeAoj-nxLk"
             },
@@ -517,124 +517,124 @@
         "color": "chocolate",
         "list": [
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Find Your Way Back",
+                "artist": "Beyoncé",
+                "description": "This song is clearly Part 2 of the other Beyoncé song about her father, “Daddy Lessons”, the one that talks about how self-sufficient he (“that bastard”, the inherent epithet) once urged her to be. I wonder who is returning to whom? Beyoncé inhabiting the voice of the Father is her in Sage Mode, the mode of Benevolent Patriarch who dispenses advice wrangled from the hands of cruel experience. She, too, can assume that specific authority.",
+                "link": "F8IadO0O2nw"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Josef (Lafawndah Remix)",
+                "artist": "Charlotte Dos Santos",
+                "description": "Something evergreen about a well-crafted song whose chorus is just the repetition of a name.",
+                "link": "36SJU7vfr4E"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Criminal (SUMIN Remix)",
+                "artist": "TAEMIN",
+                "description": "Here is the best version of the best song Shinee-member and reigning prince-twink Taemin has, to date, released. Here’s a K-pop song I wouldn’t hesitate to recommend to Bok Bok or something. I’d recommend this song to a Berlin-based DJ with any interest in pop music. A lot of credit is due to SUMIN, the producer of this remix, whose breathy vocals really complete the outro. I also love her new buzzcut. Butch Korean Rights!",
+                "link": "kYh-J83pyuc"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Your Man",
+                "artist": "Joji",
+                "description": "By the correct but also hilarious metrics of modern cancellation, if anyone were supposed to be cancelled by now, it would be Joji. But he seems to be avoiding the inevitable, and in the meantime we can listen to his album, NECTAR, which is a really great accomplishment. My Twitter acquaintance Braudie Blais-Billie called this track “very cute”. I heartily agree. Good job, Joji. Really good job. Extremely cute.",
+                "link": "RrtkU7i0qD8"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "//Aguardiente y limón %ᵕ‿‿ᵕ%",
+                "artist": "Kali Uchis",
+                "description": "Ugh, songstress! The praise you could heap on this track is extremely obvious. The kaomoji Srta. Uchis pinned to the end of the title seems to have glitched on Spotify, because it just looks like a cat (?) whose face has passed through a mirroring software. Srta. Uchis sets out a plate of dressed fruit and we all just have to eat it. Plot twist: this song is actually about how we’re all strays and Srta. Uchis feeds us scraps.",
+                "link": "qGgmWQzy6B4"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Tendril",
+                "artist": "Lyra Pramuk",
+                "description": "One mood that always works for me is “pagan shepherdess keening on the mountainside”. I mean, the track is called “Tendril”; how much more clearly could it indicate exactly what type of song it is. I love the singing, which resembles both a liturgical enunciation and the act of gulping. In a moment of whimsical stew-brain, I tried imagining that ambulance tones were all replaced by the high vocals that recur in the second half of this song. Not a bad world, that imagining.",
+                "link": "7-AXArGRIH4"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Three Six",
+                "artist": "Lin Shicheng",
+                "description": "The song I actually wanted to include here is “The Tyrant Sheds His Armor” as interpreted by the same pipa musician, Lin Shicheng. At the moment, you can only listen to that song as the audio from a low-fi YouTube tape… Tragedy. I’m sad that Master Lin is dead, because I really wish I could listen to a good-quality studio version of his “Tyrant”. There’s one recording, but the song is abridged and weirdly not the same. I became obsessed with Lin Shicheng’s pipa interpretations for the same reason I became obsessed with Vlado Perlemuter’s piano Chopin. Both players are so reserved, so tight-fisted, so stingy with their emotions… It turns this music, which lends itself to gag-inducing sentimentally, into really good stuff. You’re allowed to re-see the conceptual in the staid and historical.",
+                "link": "Mt9ac4Qf8Y4"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Homeless (Q’ara)",
+                "artist": "Elysia Crampton",
+                "description": "You’re listening to this track and walking down a country road in deep, rural Wisconsin. The road is paved but has no shoulder. You ask your friend: “Would it be possible to shoot a turkey with a handgun? What would that be called? Avicide?” Your friend replies: “With like, a Glock? You’re talking about walking out here and shooting a bird with a pistol? I feel like that would be called murder.”",
+                "link": "G5-b3is2yhM"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "In August",
+                "artist": "Half Waif",
+                "description": "In addition to feeling mauled by this song, I am obligated to include it because I listened to it over 130 times this year. This means that I’ve listened to this song for over seven hours, which honestly seems like too short an estimation. I remember a period early in quarantine when I would lay in bed and listen to this song over and over from my phone’s built-in speaker. This song is most familiar to me when it’s being muffled by the swell of a pillow.",
+                "link": "tAtBYYB1U6o"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Rager teenager!",
+                "artist": "Troye Sivan",
+                "description": "The most cathartic moment on this track is the blaring, flattened beat which connects the first and second half. Good job, Oscar Görres. Thank you for this melancholy dog food for us mongrel homosexuals, Troye Sivan. Beautiful, high-wire synth melody at the end is also very “I stumble through the night-bound city under the glare of yellow lights; I am extremely gay and both happy and sad about it.”",
+                "link": "H1pGPgQPAG8"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Pa’ Romperla",
+                "artist": "Bad Bunny (feat. Don Omar)",
+                "description": "Bad Bunny, long may he reign. Bad Bunny, long may he reign. Ten, ten, ten-one-thousand years…",
+                "link": "kcAdkh-gFtc"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "La Vita Nuova (A.G. Cook Remix)",
+                "artist": "Christine and the Queens + Caroline Polachek",
+                "description": "Whenever I hear an A.G. Cook remix, I just want to laugh. It’s an extremely pure, extremely joyous laughter. The laughter of a child! A ridiculous word that comes to mind is “untrammeled”! I laugh! I cackle! That melodic xylophone trill is just too funny!",
+                "link": "55kccOJX7ZY"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Fantasy",
+                "artist": "Against All Logic",
+                "description": "What a chill-evoking, skin-beprickling, gag-inducing song. I want to dance to this song in a frigid venue at three in the morning. I want the DJ to bass-boost the entire thing, and I want to feel the song rip through my body. Baby Boy, baby boy… That’s me, isn’t it? I want to feel like I’m about to throw up because I’m so exhausted and this song, which is so good, is triggering an adrenal response that brings me close to fainting. Have I communicated how much I miss the club? I’m telling you, I used to live in the single hope of hearing a song like this, 130% speed, at a venue in Chicago. If you read the above and then listen to this song for the first time, you might think I’m overstating how visceral it is. Maybe I am, but the track sends me there… To the dance floor... The feeling of thrashing… Ugh… Ugh!",
+                "link": "-gagW4QNcC4"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "WHAT WE DREW 우리가 그려왔던",
+                "artist": "Yaeji",
+                "description": "I’m gonna shimmy onto a limb, no paid advertisement, no reason or incentive, and call this song Perfect. I heard it the first time and really thought those exact words: this song is perfect. Here’s the song I was waiting for Yaeji to make, and she really pulled it off. Somehow, the second half of the track brings to mind the immense satisfaction of watching a group of children dribble basketballs in unison.",
+                "link": "DH-gEHS3Y4k"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "DIET_",
+                "artist": "Denzel Curry + Kenny Beats",
+                "description": "Critics didn’t like the extremely short seventeen-minute project that this track is taken from because they felt that both Kenny Beats and Denzel Curry phoned it in. OK guys, I mutter… Is it so bad to be this competent?",
+                "link": "pRsYeKS6KtU"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Get Your Wish (Anamanaguchi Remix)",
+                "artist": "Porter Robinson",
+                "description": "This is obviously Porter Robinson’s goal, but the Anamanaguchi remix of “Get Your Wish” makes me feel like I’m listening to the best quality, genuinely good version of an anime OST. It so precisely conjures the frenetic, whiplash energy that characterizes that kind of music.",
+                "link": "YHcFNe36W3Q"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Sister (Floating Points Remix)",
+                "artist": "Caribou",
+                "description": "It’s cool to be gifted this track from two DJs who work at the exact same temperature. The credits are nearly reversible, and it’s funny. This could easily be the Caribou remix of a Floating Points song.",
+                "link": "COHNto7ZNX8"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Void",
+                "artist": "Empress Of",
+                "description": "I also want to make myself the woman that nobody wants to mistreat! Detransition, detransition… I’m dancing back in the opposite direction, everyone! Just kidding, just kidding! I’m kidding, OK?",
+                "link": "ok6lq4-HzJo"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Canone Infinito",
+                "artist": "Lorenzo Senni",
+                "description": "The extremely specific image I associate with this song: booting awake in your pod-rig by injecting stimulants directly into a Keurig-esque slot implanted in your C2 vertebra. Waking up in a version of the future where housing ordinances have all shifted toward the Japanese. Not in that they’re cute or good; in that all the old housing stock has been demolished. Everyone now lives in warren-like new construction made up of tiny singles instead of, say, five people crammed into three bedrooms.",
+                "link": "DJxgEpW5dPk"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Que Te Pedí",
+                "artist": "La Lupe",
+                "description": "We return to the delicious abode of Srta. Uchis, where a vinyl recording of this track plays, muffled, in the middle distance. “What did I ask you? What didn’t I give you?” La Lupe wails. What a relatable question! Love a song that recalls the eviscerations we conduct in the name of love. Yell the answer! Yell it louder! How exactly were you disemboweled!? Good, now tell me three more times!",
+                "link": "NuY-uImaOnw"
             }
         ]
     },
@@ -718,7 +718,7 @@
             },
             {
                 "song": "Comeback",
-                "artist": "Carly Rae Jepse",
+                "artist": "Carly Rae Jepsen",
                 "description": "‘Comeback’ tells a lovely story of being on the precipice of finding your confidence again, and having a good time.",
                 "link": "CzVWtxkK_Lo"
             },
@@ -770,7 +770,7 @@
     {
         "name": "Greta",
         "roman": "IV",
-        "color": "steelblue",
+        "color": "darkslategray",
         "list": [
             {
                 "song": "This Time Dad You're Wrong",
@@ -898,7 +898,7 @@
     {
         "name": "Ja-Yoon",
         "roman": "VIII",
-        "color": "sandybrown",
+        "color": "coral",
         "list": [
             {
                 "song": "난춘 (亂春) NAN CHUN",
@@ -1184,7 +1184,7 @@
                 "song": "If You're Too Shy (Let Me Know)",
                 "artist": "The 1975",
                 "description": "Pop perfection imo.",
-                "link": "K--xGg9NUPs"
+                "link": "8jQ7Jyb-j8A"
             },
             {
                 "song": "Party",
@@ -1256,7 +1256,7 @@
                 "song": "fall",
                 "artist": "Oklou",
                 "description": "I love the bouncy synth melody on this track... she really nailed the \"dancing fawn on frozen land\" sound.",
-                "link": "zP-CSvfP3m8"
+                "link": "zQrGJWGA2Y4"
             },
             {
                 "song": "Moon Song",
@@ -1318,7 +1318,7 @@
                 "song": "Flashlight",
                 "artist": "7038634357",
                 "description": "",
-                "link": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/890171782&color=%231e90ff&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                "link": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/890171782&color=%231e90ff&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false&visual=true"
             },
             {
                 "song": "Hi Fever",
@@ -1925,124 +1925,124 @@
         "color": "royalblue",
         "list": [
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Don’t Start Now",
+                "artist": "Dua Lipa",
+                "description": "the lover she mentions does not exist but you resonate with it anyways since somehow are your ex lovers are villains",
+                "link": "oygrmJFKYZY"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "STFU!",
+                "artist": "Rina Sawayama",
+                "description": "I just feel her anger tbh and it’s valid.",
+                "link": "OtgyVGqMrOA"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Snacks",
+                "artist": "Okay Kaya",
+                "description": "I love metaphors that have to do with food.",
+                "link": "BJV2FWdUdUg"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "WHY DO FUCKBOIS HANGOUT ON THE NET",
+                "artist": "Kid Milli",
+                "description": "the whole time I’m just like... tru. And then I want to dance and feel like a college student again",
+                "link": "xGxiqglTrN8"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Pollen",
+                "artist": "Ecco2K",
+                "description": "You know when winter is coming and the sky still shines lightly through the clouds that paint the sky? You’re a little sad but somehow feel slightly blessed?",
+                "link": "zkeKcYiLVIc"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Delete Forever",
+                "artist": "Grimes",
+                "description": "I always want to cry when I listen to this song, but I can see myself slowly getting stronger every time I play it again.",
+                "link": "gvzC8MmC850"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Do you wanna?",
+                "artist": "Porches",
+                "description": "Love songs are supposed to be about a person and another person... right? When I hear this I ask myself if I’m happy with the amount of love I give me.",
+                "link": "eJT6F5bKuUs"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Susie Save Your Love",
+                "artist": "Allie X, Mitski",
+                "description": "Susie I want to warn you!!!!!!! You deserve more.",
+                "link": "xRPyeNt5Wdg"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Peppers and Onions",
+                "artist": "Tierra Whack",
+                "description": "I just can’t imagine having the level of artistry of Tierra Whack and how she’s only 25. This song is like ok but I’m young and just human plz don’t judge me.",
+                "link": "mMZCrPBg9aU"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Boy with Luv",
+                "artist": "BTS, Halsey ",
+                "description": "BTS and Halsey collaborating was a necessary moment. Plz watch the music video. You can’t like BTS and not appreciate their choreography.",
+                "link": "XsX3ATc3FbA"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Ain’t Together",
+                "artist": "King Princess",
+                "description": "Just a good song for a sad day when you want to work slow. You’re just a young person, you’re still learning.",
+                "link": "sLJbYJzD-Y0"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "When the Smoke Clears",
+                "artist": "Jasper Lotti",
+                "description": "This song will bring you soft tears of joy. This song is a friend who has got your back. It doesn’t rush you, it takes it’s time.",
+                "link": "gxa1ytAIGy0"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Below The Clavicle",
+                "artist": "Eartheater",
+                "description": "Ethereal, harp, perfection.",
+                "link": "G2X8rTLTwDM"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Rainbow",
+                "artist": "Bladee, Mechatok",
+                "description": "This is what plays in your mind when things just can’t get better. Will be a 2021 summer bop.",
+                "link": "aaj85-jjdfA"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Lamp Lady",
+                "artist": "Sevdaliza",
+                "description": "Sevdaliza’s voice and the instrumentals in this song produced pure magic from a time we never existed.",
+                "link": "fqtMLnucPcI"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "sympathy for the grinch",
+                "artist": "100 gecs",
+                "description": "The chaotic we needed to end 2020. Also the first holiday song that didn’t give me seasonal depression.",
+                "link": "8Lyvv_bhzD0"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "anthems",
+                "artist": "Charli XCX",
+                "description": "Takes me back to when I could dance and with all my friends on a Saturday night. Now I just bounce my toes and butt cheeks to it while sitting on my couch. I too miss the heat from peoples bodies.",
+                "link": "E6oq5HCzG4c"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Salv Goes To Hollywood",
+                "artist": "Sega Bodega",
+                "description": "There’s only 5 whole lines in this song, but its mixed so fucking well..... like rly rly rly well. So well it’s not repetitive and sounds new the whole way through.",
+                "link": "5U-3Hh7Zky8"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "SLIME",
+                "artist": "Shygirl",
+                "description": "The badass fuckery in this song that is so directly from the night life that is currently non-existent. Shygirl forever brings out the party person within you. The little bit of glam and ego that exists deep inside you...she demands you free it that night.",
+                "link": "3-6iAyHES3c"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Gospel For A New Century",
+                "artist": "Yves Tumor",
+                "description": "I think I actually cried when I saw them perform this song in the shitshow that is Ladyland. I have the sharpied set list from somewhere.... make me find it and frame it <3",
+                "link": "VyAouUX_nq0"
             }
         ]
     },
@@ -2181,124 +2181,124 @@
         "color": "darkgoldenrod",
         "list": [
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Se o Vento Chamar por Mim",
+                "artist": "Lena d'Água",
+                "description": "Every song on this list is a song that I’ve played so many times : either once on many different occasions or exclusively looping for a 24-hour period on some given day — or a mixture of both. In any case, I liked these songs so much that I ended up looping them as a sort of automatic response, a bit unconsciously. Lena d'Água was my top artist of 2020 according to Spotify after being 5th in my 2019 top ten. I did play this specific track of hers on loop this year and not the last. I like to sing along to this one, the words I’ve captured. It’s about the ocean. ",
+                "link": "mZIN9Z5pJrQ"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Your Body",
+                "artist": "Ikonika",
+                "description": "I love how urgent this track feels. I don’t like stress but somehow walking to it fast to get to someplace really gets me going. It’s also very sexual, so it fills my head with nice images.",
+                "link": "uYLg3JFI9Rs"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Romantics",
+                "artist": "Four Tet",
+                "description": "This song reminds me of the MBTA. I listened to it right before the sanitary crisis hit and had a long commute every morning. I like how many Four Tet memes there are out there. I can understand why.",
+                "link": "ks3qR32qzWg"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "En Apesanteur",
+                "artist": "Calogero",
+                "description": "I have no idea what made me listen to this song again but I couldn’t get away from it for many days in November. I didn’t even use to particularly like it as a kid. I think it may have been through youtube suggestions related to other songs from that era that I was reminded of it. I was five when it came out. Looking back, it was definitely Francophone music’s best moment for pop/rock in my opinion.",
+                "link": "jasIqn8IifQ"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Special Agent Man",
+                "artist": "Gaznevada",
+                "description": "My friend Adrián showed me this band. It is a song that links two different parts of my life in 2020, like a bridge. The Bonus track version is good too. I have been wondering what movie the samples are from, and what they are saying. I’ve caught the words “hell with the weather” and “looking for me” in what seems to be a classic American superhero/or/gangsterfilm villain voice, so I’m curious if anyone can figure out where these lines are from. Unless they were made specifically for the track.",
+                "link": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/305252437&color=%23000000&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false&visual=true"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Salma Ya Salma",
+                "artist": "Dalida",
+                "description": "I heard this song for the first time in the film “Pédale Douce”. It was on TV one night in November, a little after my birthday. Apparently, this film is considered to be atrocious, a real turnip. Despite how antiquated some of the queer representations are (it is a French comedy from 1996 after all) and how unrealistic some of the characters’ reactions are I quite liked it. This song comes on when the characters are dancing at the bar. I listened to this song and other ones in Arabic by Dalida for days after that. I had never listened to Dalida before, actually. Her voice sounds deeper so I mostly like her singing when it’s in Arabic. ",
+                "link": "vFcLfvbrRTg"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "M30",
+                "artist": "Makala",
+                "description": "“le plus mignon, c’est Mak.” (!)",
+                "link": "5YQSlgVyYEM"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "quelques centimètres ",
+                "artist": "😎 moyen age",
+                "description": "I liked this short song so much that I wanted to sing along to it while it played in the background without me having to actually focus on the words. Internalize them so that they could just come out of my mouth automatically while it played. The lyrics I’ve understood are : “Slow blues, Techno-funk. / Gospel, Rock Ballad. / Swing organ, big band. / Sweet organ, big band. / À quelques centimètres de ta tête, / je vois un nouveau chemin. / À quelques centimètres de ta tête, / — je me sens bien. /Do-ré, presque beau. / Sur mon dos. / Presque beau. / Presque beau (auu-au). / La la la la la la la. / La la la la la la la la. / La la la la la la la la la.”  ",
+                "link": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/611255514&color=%23000000&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false&visual=true"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Dark Makeup",
+                "artist": "Haruomi Hosono",
+                "description": "I’m excited for this film to come out. I love that Haruomi Hosono composed the soundtrack of it and the trailer is beautiful.",
+                "link": "Yv6UE0AYm-o"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Waiting in Arisaig",
+                "artist": "Lord of the Aisles",
+                "description": "This song is so melancholic to me. I listen to it as background music while sorting through excel sheets at work but also while walking and taking the subway home. It’s a “time passing” kind of song to me, which goes well with any thought relating to routine or boredom.",
+                "link": "U9zrydFbUhU"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "\"GOUGE\" D.N.A. - 002 \"No End\".",
+                "artist": "JULIEN ANDREAS",
+                "description": "If you listen to this with the volume up it is like a bunch of swords piercing your heart. ",
+                "link": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/306828739&color=%23000000&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false&visual=true"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Forever Industries A",
+                "artist": "Moor Mother",
+                "description": "Camae Ayewa really makes me believe in poetry. I’m a bad poet and every time I read poetry I get the same old epiphany, that “it’s the shortest path to vibrant images and scarily fierce feelings!” But so I believe in poetry, and images, and ultimately, escape into some other, better space than this one ever if it’s speculative. And if it’s loud enough then it can make things budge for real. ",
+                "link": "66r_NkpxIjs"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Meine",
+                "artist": "Daso",
+                "description": "A beautiful older song by Daso Franke who sadly passed away in 2018. A song that suited a lot of the feelings I had on my first morning commutes this September. I listened to this one specifically every morning for several weeks. I can tell you that the moments right before the train gets to Quai de la Rapée are, at around 9am in late September, the most beautiful in my opinion, because you get to see the sun spackle the Seine with brightness (unless it’s raining). That should be enough. Anything that comes after that is fine.",
+                "link": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/20959730&color=%23000000&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false&visual=true"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Plans",
+                "artist": "Kate NV",
+                "description": "This song is nice to do any repetitive task to, like folding things. I celebrate another day, I tick it off the calendar. Still many days to go until I am an old lady — unless something happens to me before that. Где-то есть на планете планы !!",
+                "link": "u_NQIwVk4MQ"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "寂寞保齡球 [Lonely Bowling]",
+                "artist": "A-mei",
+                "description": "I discovered a-mei through a mix and I started listening to all of her tracks. I played them while we bleached a friend’s buzzed hair and he writhed in pain. There was nothing we could do for him except watch and chat to make it end faster. ",
+                "link": "JNqDadrja4Q"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Center of the world (Kotta Blues)",
+                "artist": "Marie Davidson",
+                "description": "Marie Davidson’s voice makes me want to cry in this song and “I used to call you my brave new girl” is worth getting graffitied somewhere. ",
+                "link": "2Q8siLsO6Gk"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Dead souls",
+                "artist": "Lawrence Lek",
+                "description": "I listened to this whole album while playing the visual novel “Desire” when I got tired of the OST. In the end, since it took me all of 2020 to complete the game I played  in small episodes, I ended up listening to it a lot and I 100% associate this album to the game. I do like the original soundtrack (by Ryu Umemoto) but it gets repetitive and the songs that pop up the most often during the game are the ones I liked the least.",
+                "link": "49Cgqt8gMQA"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "The Word",
+                "artist": "Mikey Enwright",
+                "description": "This song is really great to loop endlessly. It feeds back into itself and it’s a bit meditative. It reminds me of one day in particular, sometime in May, when I was occupying myself in between online lessons and doing the dishes, doing laundry, trying to hem clothes I’d cut and had this sound on the whole time. It was really easy to ignore the moment it started over so it just felt like one long track.",
+                "link": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/736995637&color=%23000000&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false&visual=true"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Dolly",
+                "artist": "Erin Vadala",
+                "description": "This is my friend Aedan’s cousin’s band. I love their music so much and this track especially. Erin’s voice is extremely powerful and I am ashamed at how mine sounds when I try to sing along to this. I listened to it a lot during the Spring. And I hope Dolly kept herself coming after that!!",
+                "link": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/571361148&color=%23000000&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false&visual=true"
             },
             {
-                "song": "",
-                "artist": "",
-                "description": "",
-                "link": ""
+                "song": "Oh to Be a Rainbow",
+                "artist": "Soko",
+                "description": "Soko is right in this song and I enjoyed this track the most when I was on the backseat of Wen’s car on our way back from the Jacob Riis beach. I felt dizzy from the sun and drinking beer. It was the first beach I‘d ever been to in the US where people had their tits out. My mother always complained that American cops fined you if they caught you doing that but here it was not the case. We took our bathing suits off while swimming and the water was perfectly fresh and soft against our skin.",
+                "link": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/844677034&color=%23000000&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false&visual=true"
             }
         ]
     },
@@ -2317,19 +2317,19 @@
             {
                 "song": "Faith Healer",
                 "artist": "Julien Baker",
-                "description": "Julien Baker could lead an army with this song. I remember biking and listening to this song on repeat, in a new city, my hands gripping the handlebars stinging from the cold. Biking along the river past several sculpture gardens. The river looked like the sea that day. The bridges reflecting off the water.",
+                "description": "Julien Baker could lead an army with this song. I remember biking home and listening to this song on repeat. In a new city, not really sure what I'm doing there, my hands gripping the handlebars stinging from the cold. Very indie girl moment. Biking along the river past several sculpture gardens and boat houses. The river looked like the sea that day (big). The bridges reflecting off the water. Clumps of dead leaves swirling on the surface.",
                 "link": "bWAOkg2i6_g"
             },
             {
                 "song": "Forever",
                 "artist": "Oklou",
-                "description": "This song is the sun being too bright even filtered through the trees you feel it on your back but its still too cold. Another song listened on repeat a lot. Standing in a field of rushes not knowing if you’re allowed to be there. Means a lot to a lot of other people too.",
+                "description": "This song is the sun being too bright even filtered through the trees you feel the warmth of it on your back but its still too cold. But the sun is still a comfort. Another song listened on repeat a lot. Standing in a field of rushes not knowing if you’re allowed to be there. Time-lapse video of the clouds moving across the sky. Lens flair. Refracted light.",
                 "link": "pfXvzvInKrM"
             },
             {
                 "song": "Silver (A.G. Cook Cover)",
                 "artist": "Astra King",
-                "description": "(Skip to 2:55) <br></br> Being 14, sleeping in, having a crush, watching anime, playing piano, being 15, drawing still lives, torrenting movies, watching NBC sitcoms, going to convenience stores, jaywalking across busy streets, being 16, being an SAT tutor, getting Korean food, having a crush, spiking coke bottles with rum, throwing up, taking the train, running around a mountain, hanging out on the track after school, eating lunch outside, having a crush, talking too loud in the library, taking a mushy banana out of your backpack, eating lots of rice, fighting with your little sister, bantering with your history teacher, making proclamations without knowing anything, thinking that you know everything, realizing you know nothing, graduating high school, moving away, saying goodbye.",
+                "description": "(Skip to 2:55) <br></br> Being 14, sleeping in, having a crush, watching anime, playing piano, <br></br> being 15, drawing still lives, torrenting movies, watching NBC sitcoms, going to convenience stores, jaywalking across busy streets, <br></br> being 16, being an SAT tutor, getting Korean food, having a crush, spiking coke bottles with rum, throwing up, taking the train, running around a mountain, hanging out on the track after school, eating lunch outside, having a crush, talking too loud in the library, kissing a girl because you think you should, taking a mushy banana out of your backpack, eating lots of rice, fighting with your little sister, bantering with your history teacher, talking to your crush in the lunch line, making proclamations without knowing anything, thinking that you know everything, realizing you know nothing, graduating high school, moving away, talking to your crush one last time, saying goodbye.",
                 "link": "Hh9iFc5Sdso"
             },
             {
@@ -2341,7 +2341,7 @@
             {
                 "song": "Never Get to Hold You",
                 "artist": "Carly Rae Jepsen",
-                "description": "Wanna be with the ones I love :(",
+                "description": "Wanna touch the ones I love :(",
                 "link": "nTodM2TJ_s0"
             },
             {
@@ -2395,37 +2395,37 @@
             {
                 "song": "Goku Vibes (feat. Tohji, Elle Teresa, Uneducated Kid & Futuristic Swaver)",
                 "artist": "DJ CHARI & DJ TATSUKI",
-                "description": "The vibrato is crazy! It really sent me down this huge asian emo rapper rabbit hole.",
+                "description": "Normally I don't give a shit about dragonball z but this super saiyan shit is truly asian excellence.It really sent me down this huge asian emo rapper rabbit hole.",
                 "link": "ZANXT8k7KE4"
             },
             {
                 "song": "Riquiqui",
                 "artist": "Arca",
-                "description": "There’s a moment toward then end, when she says “Como una gata” and she pauses after gat- letting all of the potential energy of the last vowel build up before expelling it. that moment gets me every time. I remember listening to this song while running early in the morning this summer in Portland. There’s something naive and childish about that delivery at the end that really made me want to stomp my feet on the pavement. As I ran past my old elementary school I couldn’t help but remember how I used to be really good at four square and wall ball. Anyways, degenerate girl regenerate to- regenerated girl degenerate to generate heat in the light  / love in the face of fear / fear in the face of God",
+                "description": "There’s a moment toward then end, when she says “Como una gata” and she pauses after \"gat-\" letting all of the potential energy of the last vowel build up before expelling it. that moment gets me every time. I remember listening to this song while running early in the morning this summer in Portland. There’s something naive and childish about that delivery at the end that really made me want to stomp my feet on the pavement. As I ran past my old elementary school I couldn’t help but remember how I used to be really good at four square and wall ball. Anyways, love the almost playground skip-rope rhyme vibe of \"degenerate girl regenerate to-(oh wait) regenerated girl degenerate to generate heat in the light / love in the face of fear / fear in the face of God\"",
                 "link": "AZKPd3k6O6A"
             },
             {
                 "song": "JETAIME",
                 "artist": "Isabella Lovestory, Chicken",
-                "description": "All I can say is... like with almost all the other songs on the list, i love vocal processing, i love compression, i love pop music, i love harsh noise, i love cool girls, i love hot girls",
+                "description": "All I can say is... like with almost all the other songs on the list, i love vocal processing, i love compression, i love pop music, i love harsh noise, i love hot girls. This is a song that feels really scary and apprehensive.",
                 "link": "3kNIimQQg0w"
             },
             {
                 "song": "just got left on delivered 😭😔",
                 "artist": "​dj something",
                 "description": "This shit make my mind melt. I’ve only ever experienced real ASMR once in my life when my friend whispered in my ear, and his voice somehow sounded exactly like it went through a compression filter. I don’t know, maybe they hit the exact right frequency my eardrums are attuned to. This song, which is basically just an extremely pitched up and compressed remix of robbery by juice wrld,  does a really good job of approximating that feeling. As one comment puts it, “OH GOD OH FUCK IM GONNA CUM”",
-                "link": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/737535016&color=%231e90ff&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+                "link": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/737535016&color=%231e90ff&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false&visual=true"
             },
             {
                 "song": "Anymore ft. Kim Petras [Laura Les Remix]",
                 "artist": "lil aaron",
-                "description": "Lots of things to love with this one. the singsong introduction / audio tag of ~”Kim Petras and lil Aaron “ at the beginning  (as if u didn’t already know who u were about to listen to), that classic hyper pop vocal processing of shaving the first and last couple of microseconds of every word (?) Not sure if thats how they do it exactly but, I love imagining each word completely blocky and separate, sitting like beads on a string. And lastly, the absolutely charming / wonky/ sincere breakdown at the end, like you took the sound of teenage angels warbling and compressed it to hell.",
+                "description": "Lots of things to love with this one. the singsong introduction / audio tag of ~”Kim Petras and lil Aaron “ at the beginning  (as if u didn’t already know who u were about to listen to). straight up just calling your haters stupid. that classic hyper pop vocal processing of shaving the first and last couple of microseconds of every word (?) Not sure if that's how they do it exactly but, I love imagining each word completely blocky and separate, sitting like beads on a string. And lastly, the absolutely charming / wonky/ sincere breakdown at the end, like you took the sound of teenage angels warbling and compressed it to hell.",
                 "link": "9W5FOFZg-uI"
             },
             {
                 "song": "party 4 u",
                 "artist": "Charli XCX",
-                "description": "Being sad, being lonely, being wanted, wanting more, drinking fast, drinking slowly, dimming the lights, asking your friend to bring the strobe lights, hooking up the speakers, shaking floorboard, hey you wanna sit outside? Breathing in secondhand smoke, pushing your sweaty hair back, taking off a couple of layers, reading old texts, –",
+                "description": "Being sad, being lonely, being wanted, wanting more, drinking fast, drinking slowly, dimming the lights, asking your friend to bring the strobe lights, hooking up the speakers, shaking floorboard, hey you wanna sit outside? Breathing in secondhand smoke, checking your phone for no reason, pushing your sweaty hair back, taking off a couple of layers, reading old texts, taking flash photos, -",
                 "link": "fKrTCGGEiWY"
             }
         ]
