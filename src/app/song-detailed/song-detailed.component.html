@@ -8,13 +8,18 @@
         (mouseover)="hover=true" 
         (mouseout)="hover=false" 
         [ngStyle]="{'background-color': hover==true ? 'dodgerblue' : color}">
-            <div class="youtube-player" id="{{song.link}}" *ngIf="!song.link.startsWith('http')">
+
+            <div class="youtube-player" 
+            id="{{song.link}}" 
+            *ngIf="!song.link.startsWith('http')">
                 <div (click)="doIFrame(song.link)">
                     <img [src]='getSrc(song.link)'>
                     <div class="play">▶&#xFE0E;</div>
                 </div>
             </div>
+
             <iframe  *ngIf="song.link.startsWith('http')" [src]="song.link | safe" controls=0 modestbranding rel=0 frameborder="0"  color="#1e90ff" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
         </div>
         
     
@@ -23,19 +28,23 @@
         <span class="song-artist">{{song.artist}}</span>
 
 
-        <div class="song-link"  *ngIf="smallScreen" (mouseover)="hover=true" 
+        <div class="song-link"  
+        *ngIf="smallScreen" 
+        (mouseover)="hover=true" 
         (mouseout)="hover=false" 
         [ngStyle]="{'background-color': hover==true ? 'dodgerblue' : color}">
+
             <div class="youtube-player" 
             id="{{song.link}}" 
-            *ngIf="!song.link.startsWith('http')" 
-            >
+            *ngIf="!song.link.startsWith('http')" >
                 <div (click)="doIFrame(song.link)">
                     <img [src]='getSrc(song.link)'>
                     <div class="play">▶&#xFE0E;</div>
                 </div>
             </div>
+
             <iframe *ngIf="song.link.startsWith('http')" [src]="song.link | safe" controls=0 modestbranding rel=0 frameborder="0"  color="#1e90ff" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
         </div>
 
         <div class="song-description" [innerHTML]=song.description></div>
