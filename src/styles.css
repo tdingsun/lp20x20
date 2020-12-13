@@ -2,7 +2,6 @@ body, html {
     font-size: 16px;
     font-family: 'Helveica-Neue', Helvetica, sans-serif;
     color:dodgerblue;
-
     overflow: hidden;
     scroll-behavior: smooth;
     word-break: break-word;

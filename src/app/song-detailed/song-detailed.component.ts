@@ -12,7 +12,8 @@ export class SongDetailedComponent implements OnInit {
   @Input() smallScreen: boolean = false;
   @Input() color: string;
 
-  hover:boolean = false;
+  hover: boolean = false;
+  isClicked: boolean = false;
 
   videoIdNoMaxRes:string[] = [
     "0146f9YwCjM", 
@@ -29,12 +30,18 @@ export class SongDetailedComponent implements OnInit {
     "uhi8m8f5SPo",
     "qwIRY1dUYvA",
     "dcQHuCjfb5s",
-    "U4S-z5Z3yic"
+    "U4S-z5Z3yic",
+    "vFcLfvbrRTg",
+    "JNqDadrja4Q"
   ];
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onClick(): void {
+    console.log('clickeddd');
   }
 
   getSrc(link): string {
@@ -76,5 +83,4 @@ export class SongDetailedComponent implements OnInit {
     var div = document.getElementById(link);
     div.replaceChild(iframe, div.firstChild);
   }
-
 }

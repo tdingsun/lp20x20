@@ -1,14 +1,14 @@
-<div class=name *ngIf="name" [ngStyle]="{'color': color}">{{name}}</div>
 
-<div class=list *ngIf="list" [ngStyle]="{'border-color': color}">
+<div class="list" *ngIf="list" id="list-container" [ngStyle]="{'border-color': color}">
         <app-song-detailed 
             [song]=song 
             [index]=i 
             [smallScreen]=smallScreen 
-            [color]=color 
+            [color]=color
             *ngFor="let song of list.list; index as i">
         </app-song-detailed>
 </div>
 
+<div class=name *ngIf="name" [ngStyle]="{'color': color}">{{name}}</div>
 <app-nav [color]=color [name]="name"></app-nav>
 

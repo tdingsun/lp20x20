@@ -8,7 +8,7 @@ import { ListService } from '../list.service';
   templateUrl: './detailed-list.component.html',
   styleUrls: ['./detailed-list.component.css']
 })
-export class DetailedListComponent implements OnInit, AfterViewInit {
+export class DetailedListComponent implements OnInit {
   list: List = null;
   name: string = null;
   color: string = null;
@@ -19,7 +19,7 @@ export class DetailedListComponent implements OnInit, AfterViewInit {
     let el = document.getElementById('watermark-img');
     let width = window.innerWidth;
     if(width > 580){
-      el.style.filter = `blur(100px)`;
+      el.style.filter = `blur(150px)`;
     } else {
       el.style.visibility = 'hidden';
       this.smallScreen = true;
@@ -32,13 +32,12 @@ export class DetailedListComponent implements OnInit, AfterViewInit {
           this.name = list.name;
           this.color = list.color;
           this.switchHeaderColor(list.color);
+          if(document.getElementById('list-container') != null){
+            document.getElementById('list-container').scrollTop = 0;
+          }
         }
       })
     });
-  }
-
-  ngAfterViewInit(): void {
-    // this.initYouTubeVideos();
   }
 
   switchHeaderColor(color){
