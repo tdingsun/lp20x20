@@ -32,7 +32,8 @@ export class SongDetailedComponent implements OnInit {
     "dcQHuCjfb5s",
     "U4S-z5Z3yic",
     "vFcLfvbrRTg",
-    "JNqDadrja4Q"
+    "JNqDadrja4Q",
+    "uCLsfJ7OrV0"
   ];
 
   constructor() { }
