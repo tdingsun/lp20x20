@@ -82,4 +82,8 @@ app-list:first-of-type {
         top: 5px;
         right: 5px;
     }
+
+    #megamix {
+        top: 5px;
+    }
 }
