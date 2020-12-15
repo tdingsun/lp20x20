@@ -12,6 +12,7 @@ import { DetailedListComponent } from './detailed-list/detailed-list.component';
 import { AllListsComponent } from './all-lists/all-lists.component';
 import { SongDetailedComponent } from './song-detailed/song-detailed.component';
 import { NavComponent } from './nav/nav.component';
+import { NoHyphenPipe } from './no-hyphen.pipe';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { NavComponent } from './nav/nav.component';
     DetailedListComponent,
     AllListsComponent,
     SongDetailedComponent,
-    NavComponent
+    NavComponent,
+    NoHyphenPipe
   ],
   imports: [
     BrowserModule,

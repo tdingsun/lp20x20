@@ -13,9 +13,6 @@ export class ListComponent {
   hover: boolean = false;
   constructor(private router:Router, private route:ActivatedRoute) { }
 
-  ngOnInit(): void {
-  }
-
   onClick(name): void {
     this.router.navigate([`/${name}`]);
   }

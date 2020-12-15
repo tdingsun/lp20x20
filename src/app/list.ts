@@ -2,6 +2,7 @@ export interface List {
     name: string;
     roman: string;
     color: string;
+    intro?: string;
     list: Song[];
 }
 
