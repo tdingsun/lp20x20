@@ -37,6 +37,36 @@
     max-width: 580px;
 }
 
+#playlistLink {
+    font-family: 'Helveica-Neue', Helvetica, sans-serif;
+    font-size: 1.1rem;
+    display: inline;
+    vertical-align: text-top;
+    position: relative;
+    top: 14px;
+    left: -20px;
+    border: 1px solid;
+    border-radius: 100px;
+    letter-spacing: 0;
+    padding: 1px 5px 0px 5px;
+    color: unset;
+}
+
+#playlistLink:hover {
+    color: white;
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+a:visited {
+    color: unset;
+}
+
 #nav {
     float: right;
     position: fixed;

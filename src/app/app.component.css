@@ -46,6 +46,7 @@ a {
     border-radius: 20px;
     padding: 0 5px;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 a:hover {

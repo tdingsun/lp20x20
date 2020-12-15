@@ -12,6 +12,11 @@
         </app-song-detailed>
 </div>
 
-<div class=name *ngIf="name" [ngStyle]="{'color': color}">{{ name | noHyphen }}</div>
+
+<div class=name *ngIf="name" [ngStyle]="{'color': color}">{{ name | noHyphen }}
+    <a [href]=list.playlistLink  target="_blank">
+        <div id="playlistLink">&nbsp;♫&#xFE0E;♩&#xFE0E;</div>
+    </a>
+</div>
 <app-nav [color]=color [name]="name"></app-nav>
 
