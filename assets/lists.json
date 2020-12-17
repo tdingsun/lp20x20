@@ -1292,7 +1292,7 @@
     {
         "name": "Libby",
         "roman": "XI",
-        "color": "seagreen",
+        "color": "olivedrab",
         "playlistLink": "https://www.youtube.com/playlist?list=PLsW-ZGvYnUZcKcKgpr2ZRcrfiqIENJ4Iw",
         "list": [
             {
@@ -1550,7 +1550,7 @@
     {
         "name": "Maria",
         "roman": "XIII",
-        "color": "olivedrab",
+        "color": "#6fa96f",
         "playlistLink": "https://www.youtube.com/playlist?list=PLsW-ZGvYnUZch5_J7SONWEVxnQP3wzpOu",
         "list": [
             {
@@ -2325,7 +2325,7 @@
     {
         "name": "Tiger",
         "roman": "XIX",
-        "color": "darkkhaki",
+        "color": "#979143",
         "playlistLink": "https://youtube.com/playlist?list=PLsW-ZGvYnUZeNvn23i7Z61JxiTDTfJI3T",
         "list": [
             {
